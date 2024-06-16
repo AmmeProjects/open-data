@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 from datetime import timezone
 from src.api.ocpi import Location
@@ -9,6 +10,7 @@ from src.api.ocpi import Capabilities
 from src.api.ocpi import ConnectorStandards
 from src.api.ocpi import ConnectorFormats
 from src.api.ocpi import PowerTypes
+from src.api.container import DataContainer
 from src.conversion.datex2 import DatexCapabilities
 from src.conversion.datex2 import DatexConnectorFormats
 from src.conversion.datex2 import DatexPowerTypes
@@ -18,9 +20,6 @@ from src.conversion.datex2 import DatexParkingType
 
 def _enum_values(en):
     return {v for v in en}
-
-def _enum_names(en):
-    return {v.name for v in en}
 
 
 def parse_connector(doc) -> Connector:
@@ -55,7 +54,7 @@ def parse_evse(doc) -> EVSE:
     )
 
 
-def parse_site(doc) -> Location:
+def parse_location(doc) -> Location:
 
     operator_id = doc['fac:operator']['@id']
     party_id = operator_id.split("*")[1] if "*" in operator_id else operator_id
@@ -110,3 +109,23 @@ def parse_site(doc) -> Location:
             connector.last_updated = evse.last_updated
     
     return location
+
+
+def parse_nap_data(path_json) -> DataContainer:
+    # Extract payload:
+    data_dict = json.load(open(path_json))["d2:payload"]
+    
+    # Extract stations from infrastructure table:
+    egilocations = data_dict["egi:energyInfrastructureTable"]['egi:energyInfrastructureSite']
+    print("Locations found:", len(egilocations))
+
+    # Transform to OCPI locations:
+    locations = [parse_location(loc) for loc in egilocations]
+
+    # Put data into container
+    container = DataContainer(
+        data=locations, 
+        timestamp=datetime.now(tz=timezone.utc).isoformat()
+    )
+
+    return container
