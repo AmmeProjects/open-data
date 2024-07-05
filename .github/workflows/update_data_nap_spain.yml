@@ -37,17 +37,22 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-    - name: Add changes to git
-      run: git add data/naps/spain/locations.json
-
+        branch_name="update-nap-spain-$(date +'%Y-%m-%d')"
+        git checkout -b $branch_name
+    
     - name: Commit changes
       run: |
+        git add data/naps/spain/locations.json
         git commit -m "Automated update $(date -u '+%Y-%m-%d')"
-
+    
     - name: Push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git push origin HEAD:main  # Replace 'main' with your default branch if different
+      run: git push --set-upstream origin HEAD
+    
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: "Update NAP data - Spain (Automated)"
+        body: "This is an automated pull request to update NAP data for Spain."
+        branch: ${{ steps.extract_branch.outputs.branch }}
+        base: main  # Replace 'main' with your default branch if different
