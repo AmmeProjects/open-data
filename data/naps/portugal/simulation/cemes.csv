@@ -1,0 +1,36 @@
+CEME | CONTRATO,Condicionantes,URL,Data atualização,Data Tarifário,Data Fim Tarifário,Tarifa,Ciclo,Inclui EGME,Inclui IEC,Inclui TAR,Ativacao,Ponta (cTAR),Cheias / Fora de Vazio (cTAR),Vazio (cTAR),Ponta (sTAR),Cheias / Fora de Vazio (sTAR),Vazio (sTAR)
+LuziGas Casa,Cliente Doméstico | Indexante mensal (OMIE@58€/MWh),https://www.luzigas.pt/plano-mobilidade-eletrica/,2024-07-07,2024-01-01,,2H,Semanal,False,False,False,0.0,,,,,0.0767,0.0767
+Galp Electric Casa,Cliente Doméstico (-16%),https://galp.com/pt/pt/particulares/estrada/cartao-galpelectric-info,2024-05-31,2024-04-01,,2H,Ambos,False,False,True,0.0,,0.2038,0.13,,,
+Iberdrola Casa,Cliente Doméstico (-20%),https://www.iberdrola.pt/casa/mobilidade-eletrica/carregar-fora-casa,2024-06-05,2024-07-01,,1H,Nenhum,False,False,True,0.0,,0.2096,0.2096,,,
+EDP Casa + UVE,Cliente Doméstico + Associado UVE (-30%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,1H,Nenhum,False,False,True,0.0,,0.21,0.21,,,
+EDP Casa + UVE (Bi-horário),Cliente Doméstico + Associado UVE (-30%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,2H,Nenhum,False,False,True,0.0,,0.2202,0.1562,,,
+HighGreenPower,,https://www.highgreenpower.pt/mobilidade-eletrica-setor-publico-mobi-e/,2024-06-19,2024-06-01,,2H,Diário,False,False,False,0.0,,,,,0.1,0.1
+Galp Electric,,https://casa.galp.pt/sites/default/files/af_tabelas_precos_e_descontos_galpelectric_web.pdf,2024-05-31,2024-04-01,,2H,Ambos,False,False,True,0.0,,0.2232,0.1424,,,
+EDP Charge,Cliente Doméstico + Promoção (-25%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,1H,Nenhum,False,False,True,0.0,,0.225,0.225,,,
+Cepsa App GOW,App,https://pt.cepsa.com/pt/utilizacao/produtos-servicos/carregamento-eletrico,2024-03-03,2024-01-01,,1H,Nenhum,False,False,True,0.0,,0.23,0.23,,,
+eVaz Move Volt / Home,Assinante Volt ou Cliente Doméstico,https://www.evaz.energy/solutions/plans/volt,2024-05-31,2024-06-01,,2H,Ambos,False,False,True,0.0,,0.2328,0.157,,,
+EDP Charge (Bi-horário),Cliente Doméstico + Promoção (-25%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,2H,Nenhum,False,False,True,0.0,,0.2359,0.1673,,,
+EDP Casa,Cliente Doméstico (-20%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,1H,Nenhum,False,False,True,0.0,,0.24,0.24,,,
+eVaz Move Base,,https://www.evaz.energy/solutions/plans/mobility,2024-05-31,2024-06-01,,2H,Ambos,False,False,True,0.0,,0.245,0.165,,,
+FactorEnergia Ilhas,Ilhas,https://factorenergia.pt/servicos/cartao-mobilidade-eletrica/,2024-05-31,2024-01-01,,3H,Ambos,False,False,True,0.0,0.363,0.245,0.19,,,
+Prio (min),,https://www.prio.pt/pt/mobilidade-eletrica/cartao-prio-electric_296.html,2024-04-02,2024-04-01,,2H,Diário,False,False,False,0.0,,,,,0.1279,0.1376
+BlueCharge,,https://www.bluecharge.pt/wp-content/uploads/2023/02/Tarifa_Bluecharge_03_2023.pdf,2023-12-31,2023-03-01,,2H,Ambos,False,False,True,0.0,,0.249,0.229,,,
+Mobismart/EVCE Active,Plano Active (12 meses),https://mobismart.pt/pedir-cartao/,2024-05-31,2023-01-01,,2H,Diário,False,False,True,0.0,,0.25,0.2,,,
+EDP Casa (Bi-horário),Cliente Doméstico (-20%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,2H,Nenhum,False,False,True,0.0,,0.2516,0.1785,,,
+Evio ACP,Associado ACP,https://www.acp.pt/eletricos/app-e-cartao-acp-electric/para-socios-e-nao-socios,2024-05-31,2024-01-01,,2H,Diário,True,False,False,0.15,,,,,0.1315,0.1315
+LuziGas,Indexante mensal (OMIE@58€/MWh),https://www.luzigas.pt/plano-mobilidade-eletrica/,2024-07-07,2024-01-01,,2H,Semanal,False,False,False,0.0,,,,,0.1339,0.1339
+Prio (kWh),,https://www.prio.pt/pt/downloads/file363_pt.pdf,2024-04-02,2024-04-01,,2H,Diário,False,False,False,0.0,,,,,0.1372,0.1477
+Iberdrola,,https://www.iberdrola.pt/casa/mobilidade-eletrica/carregar-fora-casa,2024-06-05,2024-07-01,,1H,Nenhum,False,False,True,0.0,,0.262,0.262,,,
+ViaVerde | EcoChoice,,https://www.viaverde.pt/particulares/via-verde/onde-e-como-usar/via-verde-electric,2024-05-31,2024-03-01,,2H,Diário,False,False,False,0.0,,,,,0.148,0.148
+Evio,,https://ceme.go-evio.com/pt/site-ceme,2024-05-31,2024-01-01,,2H,Diário,True,False,False,0.15,,,,,0.149,0.149
+EDP UVE,Associado UVE (-10%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,1H,Nenhum,False,False,True,0.0,,0.27,0.27,,,
+EDP UVE (Bi-horário),Associado UVE (-10%),https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,2H,Nenhum,False,False,True,0.0,,0.2831,0.2008,,,
+Repsol,,https://www.repsol.pt/particulares/estrada/mobilidade-eletrica/,2024-05-31,2023-07-01,,1H,Nenhum,False,False,True,0.0,,0.2868,0.2868,,,
+Charge2Go,,https://charge2go.pt/tarifarios/,2024-05-31,2024-04-01,,2H,Ambos,False,False,False,0.0,,,,,0.1697,0.1697
+EDP,,https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,1H,Nenhum,False,False,True,0.0,,0.3,0.3,,,
+Mobismart/EVCE Pré-Pago,Plano Pré-pago,https://mobismart.pt/pedir-cartao/,2024-05-31,2023-01-01,,2H,Diário,False,False,True,0.0,,0.3,0.25,,,
+EDP (Bi-horário),,https://www.edp.pt/particulares/servicos/mobilidade-eletrica/carregar-fora-de-casa/,2024-05-31,2024-06-01,,1H,Nenhum,False,False,True,0.0,,0.3145,0.2231,,,
+Miio,Indexado horário (OMIE@35€/MWh),https://www.miio.pt/payment,2024-07-07,2023-01-01,,2H,Ambos,True,False,False,0.0,,,,,0.1925,0.2457
+FactorEnergia,Continente,https://factorenergia.pt/servicos/cartao-mobilidade-eletrica/,2024-05-31,2024-01-01,,3H,Ambos,False,False,True,0.0,0.421,0.351,0.321,,,
+EVPower,,https://signup.evpower.pt/,2024-03-15,2024-01-01,,2H,?,False,False,False,0.0,,,,,0.245,0.175
+Okeana,,https://okeana.pt/assets/OKEANA_Mob%20eletrica_LANDING%20PAGE_JUNHO%202023.pdf,2024-05-31,2024-01-01,,2H,Nenhum,False,False,False,0.0,,,,,0.25,0.25

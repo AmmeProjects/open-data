@@ -1,3 +1,5 @@
 jupyter
 pandas
 xmltodict
+geopandas
+matplotlib

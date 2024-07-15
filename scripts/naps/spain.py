@@ -11,10 +11,10 @@ OUTPUT_PATH     = "data/naps/spain/locations.json"
 FORCE_DOWNLOAD  = False
 
 
-def update_locations():
+def update_locations(force):
 
     # Download XML from spanish NAP:
-    Download(url=URL, path=PATH).download(force=FORCE_DOWNLOAD)
+    Download(url=URL, path=PATH).download(force=force)
 
     # Convert to JSON:
     path_json = xml_to_json(PATH)
@@ -29,4 +29,13 @@ def update_locations():
 
 if __name__ == "__main__":
 
-    update_locations()
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-f", "--forcedownload", action="store_true", help="Force download from NAP")
+    args = parser.parse_args()
+
+    if args.forcedownload:
+        print("Redownloading locations...")
+
+    update_locations(force=args.forcedownload)
