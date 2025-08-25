@@ -1,4 +1,4 @@
-name: Update NAP data - Spain
+name: Update NAP data - Static
 
 on:
   schedule:
@@ -31,19 +31,24 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run Python script
+    - name: Run Spain NAP update script
       run: python -m scripts.naps.spain
+      continue-on-error: true
+    
+    - name: Run Portugal NAP update script
+      run: python -m scripts.naps.portugal
+      continue-on-error: true
 
     - name: Configure Git
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        branch_name="update-nap-spain-$(date +'%Y-%m-%d')"
+        branch_name="update-nap-static-$(date +'%Y-%m-%d')"
         git checkout -b $branch_name
     
     - name: Commit changes
       run: |
-        git add data/naps/spain/locations.json
+        git add data/naps/*/locations.json
         git commit -m "Automated update $(date -u '+%Y-%m-%d')"
     
     - name: Push changes
@@ -58,5 +63,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         gh pr create --title "Update NAP data - Spain (Automated, $(date -u '+%Y-%m-%d'))" \
-                     --body "This is an automated pull request to update NAP data for Spain." \
+                     --body "This is an automated pull request to update NAP data." \
                      --base main

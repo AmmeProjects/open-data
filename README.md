@@ -20,3 +20,4 @@ and innovation in Portugal's EV infrastructure.
 | Country | Static | Dynamic | Automated | 
 | --- | --- | --- | --- |
 | Spain | X |     | Yes |
+| Portugal | X |    | Yes |

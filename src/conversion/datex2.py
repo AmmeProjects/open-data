@@ -24,6 +24,7 @@ class DatexConnectorStandards(str, Enum):
     DOMESTIC_F = 'domesticF'  # schuko
     IEC_62196_T1 = 'iec62196T1'
     IEC_62196_T3A = 'iec62196T3A'
+    IEC_60309_2_single_16 = 'iec60309x2single16'
     IEC_60309_2_three_32 = 'iec60309x2three32'
     IEC_62196_T1_COMBO = 'iec62196T1COMBO'
     IEC_62196_T3C = 'iec62196T3C'
