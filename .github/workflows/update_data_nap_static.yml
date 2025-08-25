@@ -62,6 +62,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        gh pr create --title "Update NAP data - Spain (Automated, $(date -u '+%Y-%m-%d'))" \
+        gh pr create --title "Update NAP data - Static (Automated, $(date -u '+%Y-%m-%d'))" \
                      --body "This is an automated pull request to update NAP data." \
                      --base main

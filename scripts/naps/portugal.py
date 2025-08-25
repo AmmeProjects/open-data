@@ -7,19 +7,19 @@ from src.mappers.naps.portugal import parse_nap_data
 
 URL             = "https://pgm.mobie.pt/integration/nap/evChargingInfra"
 PATH            = "data/raw/portugal_mobie_static.xml"
-OUTPUT_PATH     = "data/naps/portugal/static.json"
+OUTPUT_PATH     = "data/naps/portugal/locations.json"
 FORCE_DOWNLOAD  = False
 
 
 def update_locations():
 
-    # Download XML from spanish NAP:
+    # Download XML from Portuguese NAP:
     Download(url=URL, path=PATH).download(force=FORCE_DOWNLOAD)
 
     # Convert to JSON:
     path_json = xml_to_json(PATH)
     
-    # Convert to OPCI format:
+    # Convert to OCPI format:
     container = parse_nap_data(path_json=path_json)
 
     # Serialize and store:

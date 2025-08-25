@@ -108,8 +108,10 @@ def parse_location(doc) -> Location:
 
 
 def parse_nap_data(path_json) -> DataContainer:
+    
     # Extract payload:
-    data_dict = json.load(open(path_json))
+    with open(path_json, "r") as json_fp:
+        data_dict = json.load(json_fp)
     field_payload = list(data_dict.keys())[0]
     data_dict = data_dict[field_payload]
 
