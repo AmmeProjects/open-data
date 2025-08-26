@@ -17,7 +17,22 @@ and innovation in Portugal's EV infrastructure.
 
 ### National Access Points
 
+[![Update NAP data - Static](https://github.com/AmmeProjects/open-data/actions/workflows/update_data_nap_static.yml/badge.svg)](https://github.com/AmmeProjects/open-data/actions/workflows/update_data_nap_static.yml)
+
+| Country | Static | Dynamic | Automated | Status |
+| --- | --- | --- | --- | --- |
+| Spain | X |     | Yes | |
+| Portugal | X |    | Yes | |
+
+
 | Country | Static | Dynamic | Automated | 
 | --- | --- | --- | --- |
 | Spain | X |     | Yes |
 | Portugal | X |    | Yes |
+
+
+## Roadmap
+
+* Store tariffs in PT.
+* Refactor Datex2 -> OCPI conversion to reduce code duplication.
+* Store dynamic data stats.
