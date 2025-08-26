@@ -19,11 +19,6 @@ and innovation in Portugal's EV infrastructure.
 
 [![Update NAP data - Static](https://github.com/AmmeProjects/open-data/actions/workflows/update_data_nap_static.yml/badge.svg)](https://github.com/AmmeProjects/open-data/actions/workflows/update_data_nap_static.yml)
 
-| Country | Static | Dynamic | Automated | Status |
-| --- | --- | --- | --- | --- |
-| Spain | X |     | Yes | |
-| Portugal | X |    | Yes | |
-
 
 | Country | Static | Dynamic | Automated | 
 | --- | --- | --- | --- |

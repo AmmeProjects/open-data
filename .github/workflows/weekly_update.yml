@@ -36,7 +36,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        python scripts/git_utils.py data/naps/spain/locations.json weekly-update-$(date +'%G-W%V') https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Spain update $(date -u '+%Y-%m-%d')"
+        python -m src.utils.git_utils data/naps/spain/locations.json weekly-update-$(date +'%G-W%V') https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Spain update $(date -u '+%Y-%m-%d')"
 
   extract-static-portugal:
     runs-on: ubuntu-latest
@@ -67,7 +67,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        python scripts/git_utils.py data/naps/portugal/locations.json weekly-update-$(date +'%G-W%V') https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Portugal update $(date -u '+%Y-%m-%d')"
+        python -m src.utils.git_utils data/naps/portugal/locations.json weekly-update-$(date +'%G-W%V') https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Portugal update $(date -u '+%Y-%m-%d')"
 
   update-nap-static:
     runs-on: ubuntu-latest

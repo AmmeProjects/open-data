@@ -3,6 +3,7 @@ import requests
 import os
 from datetime import datetime
 import logging
+from bs4 import BeautifulSoup  # Added for robust HTML parsing
 
 # URL of the page containing the download link
 PAGE_URL = "https://www.mobie.pt/pt/redemobie/encontrar-posto"
@@ -16,11 +17,12 @@ response = requests.get(PAGE_URL)
 response.raise_for_status()
 html = response.text
 
-# Find the download link using regex
-match = re.search(r'<a[^>]+id="linkDownload1"[^>]+href="([^"]+)"', html)
-if not match:
+# Use BeautifulSoup to find the download link
+soup = BeautifulSoup(html, "html.parser")
+download_link_tag = soup.find("a", id="linkDownload1")
+if not download_link_tag or not download_link_tag.has_attr("href"):
     raise Exception("Download link not found in HTML.")
-download_url = match.group(1)
+download_url = download_link_tag["href"]
 
 # If the link is relative, build the absolute URL
 if not download_url.startswith("http"):
