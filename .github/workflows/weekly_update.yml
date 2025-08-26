@@ -1,0 +1,134 @@
+name: Update NAP data - Static
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every Monday
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  extract-static-spain:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Cache Python dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run Spain NAP update script
+      run: python -m scripts.naps.spain
+      continue-on-error: true
+    - name: Commit and Push Spain locations.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        python -m src.utils.git_utils data/naps/spain/locations.json $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Spain update $(date -u '+%Y-%m-%d')"
+
+  extract-static-portugal:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Cache Python dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run Portugal NAP update script
+      run: python -m scripts.naps.portugal
+      continue-on-error: true
+    - name: Commit and Push Portugal locations.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        python -m src.utils.git_utils data/naps/portugal/locations.json $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Portugal update $(date -u '+%Y-%m-%d')"
+
+  run-mobie-tariffs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Cache Python dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run mobie_tariffs.py script
+      run: python scripts/custom/mobie_tariffs.py
+    - name: Commit and Push mobie_tariffs.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        python -m src.utils.git_utils data/mobie_tariffs.json $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated mobie_tariffs update $(date -u '+%Y-%m-%d')"
+
+  update-nap-static:
+    runs-on: ubuntu-latest
+    needs: [extract-static-spain, extract-static-portugal]
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        if git ls-remote --exit-code --heads origin $branch_name; then
+          git fetch origin $branch_name:$branch_name
+          git checkout $branch_name
+        else
+          git checkout -b $branch_name
+        fi
+    - name: Create Pull Request
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gh pr list --base main --head $branch_name | grep -q . || \
+        gh pr create --title "Weekly data update (Automated, $(date -u '+%Y-%m-%d'))" \
+                     --body "This is an automated pull request to update data." \
+                     --base main --head $branch_name
