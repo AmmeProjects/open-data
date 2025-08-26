@@ -95,6 +95,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run mobie_tariffs.py script
       run: python scripts/custom/mobie_tariffs.py
+      continue-on-error: true
     - name: Commit and Push mobie_tariffs.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -128,7 +129,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        gh pr list --base main --head $branch_name | grep -q . || \
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        gh pr list --base main --head "$branch_name" | grep -q . || \
         gh pr create --title "Weekly data update (Automated, $(date -u '+%Y-%m-%d'))" \
                      --body "This is an automated pull request to update data." \
-                     --base main --head $branch_name
+                     --base main --head "$branch_name"
