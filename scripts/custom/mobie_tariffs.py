@@ -13,7 +13,7 @@ os.makedirs(DIR_OUTPUT, exist_ok=True)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
 # Download the HTML page
-response = requests.get(PAGE_URL)
+response = requests.get(PAGE_URL, timeout=20)
 response.raise_for_status()
 html = response.text
 

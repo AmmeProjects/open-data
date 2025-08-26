@@ -36,7 +36,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        python -m src.utils.git_utils data/naps/spain/locations.json weekly-update-$(date +'%G-W%V') https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Spain update $(date -u '+%Y-%m-%d')"
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        python -m src.utils.git_utils data/naps/spain/locations.json $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Spain update $(date -u '+%Y-%m-%d')"
 
   extract-static-portugal:
     runs-on: ubuntu-latest
@@ -67,7 +68,39 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        python -m src.utils.git_utils data/naps/portugal/locations.json weekly-update-$(date +'%G-W%V') https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Portugal update $(date -u '+%Y-%m-%d')"
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        python -m src.utils.git_utils data/naps/portugal/locations.json $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated Portugal update $(date -u '+%Y-%m-%d')"
+
+  run-mobie-tariffs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Cache Python dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run mobie_tariffs.py script
+      run: python scripts/custom/mobie_tariffs.py
+    - name: Commit and Push mobie_tariffs.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        python -m src.utils.git_utils data/mobie_tariffs.json $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated mobie_tariffs update $(date -u '+%Y-%m-%d')"
 
   update-nap-static:
     runs-on: ubuntu-latest
