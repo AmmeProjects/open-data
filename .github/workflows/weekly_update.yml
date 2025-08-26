@@ -1,30 +1,27 @@
-name: Update NAP data - Static
+name: Weekly Data Update
 
 on:
   schedule:
     # Runs at 00:00 UTC every Monday
     - cron: '0 0 * * 1'
   workflow_dispatch:
+  pull_request:
 
 jobs:
   extract-static-spain:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        persist-credentials: false
+      uses: actions/checkout@v4
+      # with:
+      #   persist-credentials: false
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    - name: Cache Python dependencies
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
+        cache: 'pip'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -41,22 +38,18 @@ jobs:
 
   extract-static-portugal:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        persist-credentials: false
+      uses: actions/checkout@v4
+      # with:
+      #   persist-credentials: false
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    - name: Cache Python dependencies
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
+        cache: 'pip'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -73,38 +66,35 @@ jobs:
 
   run-mobie-tariffs:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        persist-credentials: false
+      uses: actions/checkout@v4
+      # with:
+      #   persist-credentials: false
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    - name: Cache Python dependencies
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
+        cache: 'pip'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run mobie_tariffs.py script
       run: python scripts/custom/mobie_tariffs.py
+      continue-on-error: true
     - name: Commit and Push mobie_tariffs.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         branch_name="weekly-update-$(date +'%G-W%V')"
-        python -m src.utils.git_utils data/mobie_tariffs.json $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated mobie_tariffs update $(date -u '+%Y-%m-%d')"
+        python -m src.utils.git_utils data/naps/portugal/history_tariffs $branch_name https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} "Automated mobie_tariffs update $(date -u '+%Y-%m-%d')"
 
   update-nap-static:
     runs-on: ubuntu-latest
-    needs: [extract-static-spain, extract-static-portugal]
+    needs: [extract-static-spain, extract-static-portugal, run-mobie-tariffs]
     permissions:
       contents: write
       pull-requests: write
@@ -128,7 +118,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        gh pr list --base main --head $branch_name | grep -q . || \
+        branch_name="weekly-update-$(date +'%G-W%V')"
+        gh pr list --base main --head "$branch_name" | grep -q . || \
         gh pr create --title "Weekly data update (Automated, $(date -u '+%Y-%m-%d'))" \
                      --body "This is an automated pull request to update data." \
-                     --base main --head $branch_name
+                     --base main --head "$branch_name"

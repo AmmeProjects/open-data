@@ -17,7 +17,7 @@ and innovation in Portugal's EV infrastructure.
 
 ### National Access Points
 
-[![Update NAP data - Static](https://github.com/AmmeProjects/open-data/actions/workflows/update_data_nap_static.yml/badge.svg)](https://github.com/AmmeProjects/open-data/actions/workflows/update_data_nap_static.yml)
+[![Weekly Data Update](https://github.com/AmmeProjects/open-data/actions/workflows/weekly_update.yml/badge.svg)](https://github.com/AmmeProjects/open-data/actions/workflows/weekly_update.yml)
 
 
 | Country | Static | Dynamic | Automated | 
