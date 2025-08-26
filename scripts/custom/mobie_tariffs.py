@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup  # Added for robust HTML parsing
 # URL of the page containing the download link
 PAGE_URL = "https://www.mobie.pt/pt/redemobie/encontrar-posto"
 DIR_OUTPUT = "data/naps/portugal/history_tariffs/"
+DIR_LATEST = "data/naps/portugal/mobie_tariffs_latest.csv"
 os.makedirs(DIR_OUTPUT, exist_ok=True)
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
@@ -40,3 +41,7 @@ filepath = os.path.join(DIR_OUTPUT, filename)
 with open(filepath, "wb") as f:
     f.write(csv_response.content)
 logging.info(f"Downloaded CSV to {filepath}")
+# Update the latest tariffs file
+with open(DIR_LATEST, "wb") as f:
+    f.write(csv_response.content)
+logging.info(f"Updated latest tariffs file at {DIR_LATEST}")
