@@ -20,7 +20,7 @@ html = response.text
 
 # Use BeautifulSoup to find the download link
 soup = BeautifulSoup(html, "html.parser")
-download_link_tag = soup.find("a", id="linkDownload1")
+download_link_tag = soup.find("a", id="linkDownload")
 if not download_link_tag or not download_link_tag.has_attr("href"):
     raise Exception("Download link not found in HTML.")
 download_url = download_link_tag["href"]
