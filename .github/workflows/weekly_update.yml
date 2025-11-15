@@ -29,26 +29,20 @@ jobs:
       BRANCH_NAME: ${{ needs.prepare-branch.outputs.branch_name }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: '3.10'
-      - uses: actions/cache@v4
-        with:
-          path: .venv
-          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.txt') }}
-      - name: Install dependencies
-        run: |
-          python -m venv .venv
-          .venv/bin/python -m pip install --upgrade pip
-          .venv/bin/python -m pip install -r requirements.txt
+          enable-cache: true
+      - name: Set up Python
+        run: uv python install
       - name: Run Spain NAP update script
-        run: .venv/bin/python -m scripts.naps.spain
+        run: uv run python -m scripts.naps.spain
       - name: Commit and Push Spain locations.json
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
         run: |
-          .venv/bin/python -m src.utils.git_utils \
+          uv run python -m src.utils.git_utils \
             data/naps/spain/locations.json \
             "$BRANCH_NAME" \
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
@@ -61,26 +55,20 @@ jobs:
       BRANCH_NAME: ${{ needs.prepare-branch.outputs.branch_name }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: '3.10'
-      - uses: actions/cache@v4
-        with:
-          path: .venv
-          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.txt') }}
-      - name: Install dependencies
-        run: |
-          python -m venv .venv
-          .venv/bin/python -m pip install --upgrade pip
-          .venv/bin/python -m pip install -r requirements.txt
+          enable-cache: true
+      - name: Set up Python
+        run: uv python install
       - name: Run Portugal NAP update script
-        run: .venv/bin/python -m scripts.naps.portugal
+        run: uv run python -m scripts.naps.portugal
       - name: Commit and Push Portugal locations.json
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
         run: |
-          .venv/bin/python -m src.utils.git_utils \
+          uv run python -m src.utils.git_utils \
             data/naps/portugal/locations.json \
             "$BRANCH_NAME" \
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
@@ -93,26 +81,20 @@ jobs:
       BRANCH_NAME: ${{ needs.prepare-branch.outputs.branch_name }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: '3.10'
-      - uses: actions/cache@v4
-        with:
-          path: .venv
-          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.txt') }}
-      - name: Install dependencies
-        run: |
-          python -m venv .venv
-          .venv/bin/python -m pip install --upgrade pip
-          .venv/bin/python -m pip install -r requirements.txt
+          enable-cache: true
+      - name: Set up Python
+        run: uv python install
       - name: Run mobie_tariffs.py script
-        run: .venv/bin/python scripts/custom/mobie_tariffs.py
+        run: uv run python scripts/custom/mobie_tariffs.py
       - name: Commit and Push mobie_tariffs.json
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
         run: |
-          .venv/bin/python -m src.utils.git_utils \
+          uv run python -m src.utils.git_utils \
             data/naps/portugal/history_tariffs \
             "$BRANCH_NAME" \
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
