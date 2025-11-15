@@ -1,0 +1,13 @@
+[project]
+name = "amme-open-data"
+version = "0.1.0"
+description = "This package by AMME provides tools to access and process open data from various sources."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "jupyter>=1.1.1",
+    "pandas>=2.3.3",
+    "requests>=2.32.5",
+    "xmltodict>=1.0.2",
+]

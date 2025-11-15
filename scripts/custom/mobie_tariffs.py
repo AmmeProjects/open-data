@@ -11,7 +11,7 @@ DIR_OUTPUT = "data/naps/portugal/history_tariffs/"
 DIR_LATEST = "data/naps/portugal/mobie_tariffs_latest.csv"
 os.makedirs(DIR_OUTPUT, exist_ok=True)
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 
 # Download the HTML page
 response = requests.get(PAGE_URL, timeout=20)
@@ -28,6 +28,7 @@ download_url = download_link_tag["href"]
 # If the link is relative, build the absolute URL
 if not download_url.startswith("http"):
     from urllib.parse import urljoin
+
     download_url = urljoin(PAGE_URL, download_url)
 
 # Download the CSV file

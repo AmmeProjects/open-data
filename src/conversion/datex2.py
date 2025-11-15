@@ -18,26 +18,27 @@ class DatexCapabilities(str, Enum):
 
 
 class DatexConnectorStandards(str, Enum):
-    IEC_62196_T2_COMBO = 'iec62196T2COMBO'
-    IEC_62196_T2 = 'iec62196T2'
-    CHADEMO = 'chademo'
-    DOMESTIC_A = 'domesticA'
-    DOMESTIC_E = 'domesticE'
-    DOMESTIC_F = 'domesticF'  # schuko
-    IEC_62196_T1 = 'iec62196T1'
-    IEC_62196_T3A = 'iec62196T3A'
-    IEC_60309_2_single_16 = 'iec60309x2single16'
-    IEC_60309_2_three_32 = 'iec60309x2three32'
-    IEC_62196_T1_COMBO = 'iec62196T1COMBO'
-    IEC_62196_T3C = 'iec62196T3C'
+    IEC_62196_T2_COMBO = "iec62196T2COMBO"
+    IEC_62196_T2 = "iec62196T2"
+    CHADEMO = "chademo"
+    DOMESTIC_A = "domesticA"
+    DOMESTIC_E = "domesticE"
+    DOMESTIC_F = "domesticF"  # schuko
+    DOMESTIC_L = "domesticL"
+    IEC_62196_T1 = "iec62196T1"
+    IEC_62196_T3A = "iec62196T3A"
+    IEC_60309_2_single_16 = "iec60309x2single16"
+    IEC_60309_2_three_32 = "iec60309x2three32"
+    IEC_62196_T1_COMBO = "iec62196T1COMBO"
+    IEC_62196_T3C = "iec62196T3C"
 
 
 class DatexConnectorFormats(str, Enum):
-    CABLE = 'cableMode3'
-    SOCKET = 'socket'
+    CABLE = "cableMode3"
+    SOCKET = "socket"
 
 
 class DatexPowerTypes(str, Enum):
-    AC_1_PHASE = 'mode2AC1p'
-    AC_3_PHASE = 'mode3AC3p'
-    DC = 'mode4DC'
+    AC_1_PHASE = "mode2AC1p"
+    AC_3_PHASE = "mode3AC3p"
+    DC = "mode4DC"
