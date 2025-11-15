@@ -35,6 +35,8 @@ jobs:
           enable-cache: true
       - name: Set up Python
         run: uv python install
+      - name: Install dependencies
+        run: uv sync
       - name: Run Spain NAP update script
         run: uv run python -m scripts.naps.spain
       - name: Commit and Push Spain locations.json
@@ -61,6 +63,8 @@ jobs:
           enable-cache: true
       - name: Set up Python
         run: uv python install
+      - name: Install dependencies
+        run: uv sync
       - name: Run Portugal NAP update script
         run: uv run python -m scripts.naps.portugal
       - name: Commit and Push Portugal locations.json
@@ -87,6 +91,8 @@ jobs:
           enable-cache: true
       - name: Set up Python
         run: uv python install
+      - name: Install dependencies
+        run: uv sync
       - name: Run mobie_tariffs.py script
         run: uv run python scripts/custom/mobie_tariffs.py
       - name: Commit and Push mobie_tariffs.json
