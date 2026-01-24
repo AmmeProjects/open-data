@@ -18,7 +18,14 @@ from sim.models import (
     TariffType,
 )
 
+from sim.physics import (
+    simulate_session,
+    calculate_charging_session,
+    estimate_charging_time,
+)
+
 __all__ = [
+    # Models
     "Vehicle",
     "Charger",
     "ChargingCurve",
@@ -27,4 +34,8 @@ __all__ = [
     "SessionResult",
     "ChargerType",
     "TariffType",
+    # Physics
+    "simulate_session",
+    "calculate_charging_session",
+    "estimate_charging_time",
 ]

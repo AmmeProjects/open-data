@@ -43,7 +43,7 @@ class Vehicle:
     nominal_voltage: float               # Nominal pack voltage (e.g., 400V)
     max_ac_power_kw: float              # Max AC charging power
     max_dc_power_kw: float              # Max DC charging power
-    max_current: float                  # Max current
+    max_current: float                   # Max current
     charging_curve: Optional[ChargingCurve] = None  # For DC fast charging
     charging_efficiency: float = 0.90    # Typical 85-95%
 ```
@@ -411,18 +411,18 @@ def simulate_session_distribution(
 
 ### **7. Implementation Phases**
 
-**Phase 1: Core Models** (Week 1)
-- [ ] Create `sim/` package structure
-- [ ] Implement `Vehicle`, `Charger`, `ChargingCurve` dataclasses
-- [ ] Implement `Tariff` model with Mobie data integration
-- [ ] Implement `SessionParameters` and `SessionResult` models
-- [ ] Create preset library with common vehicles/chargers
+**Phase 1: Core Models** ✅ **COMPLETED**
+- [x] Create `sim/` package structure
+- [x] Implement `Vehicle`, `Charger`, `ChargingCurve` dataclasses
+- [x] Implement `Tariff` model with Mobie data integration
+- [x] Implement `SessionParameters` and `SessionResult` models
+- [x] Create preset library with common vehicles/chargers (13 vehicles, 23 chargers)
 
-**Phase 2: Physics Engine** (Week 2)
-- [ ] Implement AC charging calculations
-- [ ] Implement DC charging with curves
-- [ ] Add validation and unit tests
-- [ ] Create example notebook
+**Phase 2: Physics Engine** ✅ **COMPLETED**
+- [x] Implement AC charging calculations
+- [x] Implement DC charging with curves
+- [x] Add validation and unit tests
+- [x] Create example notebook (`notebooks/charging_simulation.ipynb`)
 
 **Phase 3: Tariff Integration** (Week 3)
 - [ ] Connect with existing Mobie tariff data
@@ -540,3 +540,11 @@ print(results_df)
 
 ---
 
+## Next Steps
+
+Would you like me to:
+1. **Implement Phase 1** - Create the basic structure with models and presets?
+2. **Start with a prototype notebook** - Quick proof-of-concept?
+3. **Refine specific requirements** - Discuss any particular aspect in detail?
+
+The approach separates concerns cleanly while allowing integration with your existing data infrastructure. The simulation module can evolve independently while consuming data from your src package.
