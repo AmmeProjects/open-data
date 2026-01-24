@@ -424,12 +424,22 @@ def simulate_session_distribution(
 - [x] Add validation and unit tests
 - [x] Create example notebook (`notebooks/charging_simulation.ipynb`)
 
-**Phase 3: Tariff Integration** (Week 3)
-- [ ] Connect with existing Mobie tariff data
-- [ ] Implement cost calculation
-- [ ] Add support for Spain data
+**Phase 3: Charger Data Integration** ✅ **COMPLETED**
+- [x] Load charger information from `data/naps/portugal/locations.json` (OCPI format)
+- [x] Parse OCPI location/EVSE/connector data into Charger models
+- [x] Create charger lookup/query functionality by location/operator
+- [x] Implement real-world charging scenario queries
+- [x] ChargerRegistry with 18,058 chargers from 7,458 locations across Portugal
 
-**Phase 4: Statistical Analysis** (Week 4)
+**Phase 4: Tariff Processing & Integration** (Week 4)
+- [ ] Analyze Mobie tariff data structure and variance
+- [ ] Parse complex tariff formats (multiple components, time-of-use, etc.)
+- [ ] Load and validate tariff data from `data/naps/portugal/mobie_tariffs_latest.csv`
+- [ ] Link tariffs to specific chargers/connectors via UID_TOMADA
+- [ ] Handle tariff variations and edge cases
+- [ ] Create tariff lookup/query functionality
+
+**Phase 5: Statistical Analysis** (Week 5)
 - [ ] Monte Carlo simulation for distributions
 - [ ] Visualization tools
 - [ ] Report generation
