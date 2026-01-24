@@ -273,6 +273,13 @@ Top 10 Operators:
 
         return summary
 
+    def __len__(self) -> int:
+        """Return number of chargers in registry."""
+        return len(self._entries)
+
+    def __repr__(self) -> str:
+        return f"ChargerRegistry({len(self._entries)} chargers)"
+
 
 __all__ = [
     "ChargerEntry",

@@ -431,13 +431,15 @@ def simulate_session_distribution(
 - [x] Implement real-world charging scenario queries
 - [x] ChargerRegistry with 18,058 chargers from 7,458 locations across Portugal
 
-**Phase 4: Tariff Processing & Integration** (Week 4)
-- [ ] Analyze Mobie tariff data structure and variance
-- [ ] Parse complex tariff formats (multiple components, time-of-use, etc.)
-- [ ] Load and validate tariff data from `data/naps/portugal/mobie_tariffs_latest.csv`
-- [ ] Link tariffs to specific chargers/connectors via UID_TOMADA
-- [ ] Handle tariff variations and edge cases
-- [ ] Create tariff lookup/query functionality
+**Phase 4: Tariff Processing & Integration** ✅ **COMPLETED**
+- [x] Analyze Mobie tariff data structure and variance
+- [x] Parse complex tariff formats (multiple components, tiered pricing, dual types)
+- [x] Load and validate tariff data from `data/naps/portugal/mobie_tariffs_latest.csv`
+- [x] Link tariffs to specific chargers/connectors via UID_TOMADA
+- [x] Handle tariff variations and edge cases (REGULAR vs AD_HOC_PAYMENT)
+- [x] Create tariff lookup/query functionality (TariffRegistry)
+- [x] Implement tiered pricing calculation (time-based thresholds)
+- [x] Support for 15,786 connectors with complex pricing structures
 
 **Phase 5: Statistical Analysis** (Week 5)
 - [ ] Monte Carlo simulation for distributions
