@@ -74,6 +74,7 @@ jobs:
         run: |
           uv run python -m src.utils.git_utils \
             data/naps/portugal/locations.json \
+            data/naps/portugal/cpos.json \
             "$BRANCH_NAME" \
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
             "Automated Portugal update"
