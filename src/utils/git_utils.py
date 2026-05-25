@@ -25,20 +25,20 @@ def checkout_weekly_branch(branch_name, repo_url):
         run(["git", "checkout", "-b", branch_name])
     run(["git", "remote", "set-url", "origin", repo_url])
 
-def commit_and_push(file_path, branch_name, repo_url, message):
+def commit_and_push(file_paths, branch_name, repo_url, message):
     setup_git()
     checkout_weekly_branch(branch_name, repo_url)
-    run(["git", "add", file_path])
+    run(["git", "add", *file_paths])
     run(["git", "commit", "-m", message])
     run(["git", "push", "origin", f"HEAD:{branch_name}"])
 
 if __name__ == "__main__":
-    # Usage: python git_utils.py <file_path> <branch_name> <repo_url> <commit_message>
-    if len(sys.argv) != 5:
-        print("Usage: python git_utils.py <file_path> <branch_name> <repo_url> <commit_message>")
+    # Usage: python git_utils.py <file_path> [<file_path> ...] <branch_name> <repo_url> <commit_message>
+    if len(sys.argv) < 5:
+        print("Usage: python git_utils.py <file_path> [<file_path> ...] <branch_name> <repo_url> <commit_message>")
         sys.exit(1)
-    file_path = sys.argv[1]
-    branch_name = sys.argv[2]
-    repo_url = sys.argv[3]
-    commit_message = sys.argv[4]
-    commit_and_push(file_path, branch_name, repo_url, commit_message)
+    file_paths = sys.argv[1:-3]
+    branch_name = sys.argv[-3]
+    repo_url = sys.argv[-2]
+    commit_message = sys.argv[-1]
+    commit_and_push(file_paths, branch_name, repo_url, commit_message)
