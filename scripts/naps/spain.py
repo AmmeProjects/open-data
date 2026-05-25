@@ -23,7 +23,7 @@ def update_locations():
     container = parse_nap_data(path_json=path_json)
 
     # Serialize and store:
-    with open(OUTPUT_PATH, "w") as fp:
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as fp:
         json.dump(container, fp, default=default_serializer, indent=2, ensure_ascii=False)
 
 
