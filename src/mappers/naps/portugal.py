@@ -10,11 +10,13 @@ from src.api.ocpi import Capabilities
 from src.api.ocpi import ConnectorStandards
 from src.api.ocpi import ConnectorFormats
 from src.api.ocpi import PowerTypes
+from src.api.entities.cpo import CPO
 from src.api.container import DataContainer
 from src.conversion.datex2 import DatexCapabilities
 from src.conversion.datex2 import DatexConnectorFormats
 from src.conversion.datex2 import DatexPowerTypes
 from src.conversion.datex2 import DatexConnectorStandards
+from src.utils.strings import remove_spaces
 
 
 
@@ -110,7 +112,7 @@ def parse_location(doc) -> Location:
 def parse_nap_data(path_json) -> DataContainer:
     
     # Extract payload:
-    with open(path_json, "r") as json_fp:
+    with open(path_json, "r", encoding="utf-8") as json_fp:
         data_dict = json.load(json_fp)
     field_payload = list(data_dict.keys())[0]
     data_dict = data_dict[field_payload]
@@ -130,3 +132,59 @@ def parse_nap_data(path_json) -> DataContainer:
     )
 
     return container
+
+def extract_cpos(path_json) -> list[CPO]:
+    """
+    Extracts a unique list of CPOs and their metadata from the Portuguese NAP JSON.
+    """
+    with open(path_json, "r", encoding="utf-8") as json_fp:
+        data_dict = json.load(json_fp)
+
+    field_payload = list(data_dict.keys())[0]
+    data_dict = data_dict[field_payload]
+
+    egilocations = data_dict.get("ns6:energyInfrastructureTable", {}).get('ns6:energyInfrastructureSite', [])
+
+    cpos = {}
+    for doc in egilocations:
+        operator_doc = doc.get('ns4:operator')
+        if not operator_doc:
+            continue
+
+        operator_id = operator_doc.get('@id')
+        if not operator_id:
+            continue
+        
+        # If CPO already exists, check if we can update the name (some stations have more detailed operator names than others)
+        if operator_id in cpos:
+            name = operator_doc.get('ns4:name', {}).get('values', {}).get('value', {}).get('#text')
+            if len(name) > len(cpos[operator_id].name):
+                cpos[operator_id].name = name
+        
+        else:
+            name = operator_doc.get('ns4:name', {}).get('values', {}).get('value', {}).get('#text')
+            country_code = doc.get('ns4:locationReference', {}).get('ns3:_locationReferenceExtension', {}).get('ns3:facilityLocation', {}).get('ns2:address', {}).get('ns2:countryCode')
+
+            website = operator_doc.get('ns4:linkToGeneralInformation')
+            vat_id = operator_doc.get('ns4:vatIdentificationNumber')
+
+            telephone = None
+            org_unit = operator_doc.get('ns4:organisationUnit')
+            if org_unit:
+                contact = org_unit.get('ns4:contactInformation')
+                if contact:
+                    telephone = contact.get('ns4:telephoneNumber')
+
+            cpos[operator_id] = CPO(
+                id=operator_id,
+                name=name,
+                country_code=country_code,
+                website=website,
+                vat_id=remove_spaces(vat_id),
+                telephone=remove_spaces(telephone)
+            )
+
+    # Order CPOs by ID and return as list
+    cpos = dict(sorted(cpos.items(), key=lambda item: item[0]))
+
+    return list(cpos.values())
