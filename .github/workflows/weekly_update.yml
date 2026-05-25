@@ -22,56 +22,39 @@ jobs:
           echo "branch_name=weekly-update-$WEEK" >> $GITHUB_OUTPUT
           echo "branch_date=$WEEK" >> $GITHUB_OUTPUT
 
-  extract-static-spain:
+  update-data:
     needs: prepare-branch
     runs-on: ubuntu-latest
     env:
       BRANCH_NAME: ${{ needs.prepare-branch.outputs.branch_name }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Install uv
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b  # v8.1.0
         with:
           enable-cache: true
+          cache-python: true
+          cache-dependency-glob: "**/pyproject.toml"
       - name: Set up Python
         run: uv python install
       - name: Install dependencies
         run: uv sync
-      - name: Run Spain NAP update script
-        run: uv run python -m scripts.naps.spain
-      - name: Commit and Push Spain locations.json
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: ${{ env.BRANCH_NAME }}
+
+      - name: Update Spain NAP
+        continue-on-error: true
         run: |
+          uv run python -m scripts.naps.spain
           uv run python -m src.utils.git_utils \
             data/naps/spain/locations.json \
             "$BRANCH_NAME" \
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
             "Automated Spain update"
 
-  extract-static-portugal:
-    needs: prepare-branch
-    runs-on: ubuntu-latest
-    env:
-      BRANCH_NAME: ${{ needs.prepare-branch.outputs.branch_name }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
-        with:
-          enable-cache: true
-      - name: Set up Python
-        run: uv python install
-      - name: Install dependencies
-        run: uv sync
-      - name: Run Portugal NAP update script
-        run: uv run python -m scripts.naps.portugal
-      - name: Commit and Push Portugal locations.json
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: ${{ env.BRANCH_NAME }}
+      - name: Update Portugal NAP
+        continue-on-error: true
         run: |
+          uv run python -m scripts.naps.portugal
           uv run python -m src.utils.git_utils \
             data/naps/portugal/locations.json \
             data/naps/portugal/cpos.json \
@@ -79,28 +62,10 @@ jobs:
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
             "Automated Portugal update"
 
-  run-mobie-tariffs:
-    needs: prepare-branch
-    runs-on: ubuntu-latest
-    env:
-      BRANCH_NAME: ${{ needs.prepare-branch.outputs.branch_name }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
-        with:
-          enable-cache: true
-      - name: Set up Python
-        run: uv python install
-      - name: Install dependencies
-        run: uv sync
-      - name: Run mobie_tariffs.py script
-        run: uv run python scripts/custom/mobie_tariffs.py
-      - name: Commit and Push mobie_tariffs.json
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: ${{ env.BRANCH_NAME }}
+      - name: Update Mobie Tariffs
+        continue-on-error: true
         run: |
+          uv run python scripts/custom/mobie_tariffs.py
           uv run python -m src.utils.git_utils \
             data/naps/portugal/history_tariffs \
             "$BRANCH_NAME" \
@@ -111,9 +76,7 @@ jobs:
     name: Open or update PR
     needs:
       - prepare-branch
-      - extract-static-spain
-      - extract-static-portugal
-      - run-mobie-tariffs
+      - update-data
     if: always()
     runs-on: ubuntu-latest
     permissions:
@@ -124,7 +87,7 @@ jobs:
       BRANCH_DATE: ${{ needs.prepare-branch.outputs.branch_date }}
     steps:
       - name: Checkout target branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ env.BRANCH_NAME }}
           fetch-depth: 0
