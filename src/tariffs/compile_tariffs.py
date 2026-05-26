@@ -7,7 +7,7 @@ import yaml
 from src.tariffs.model import TariffDocument
 
 
-DEFAULT_OUTPUT_PATH = os.path.join("data", "tariffs", "pt", "master.json")
+DEFAULT_OUTPUT_PATH = os.path.join("data", "tariffs", "pt", "_master.json")
 
 
 def main():
@@ -79,7 +79,7 @@ def main():
 
     # Dump the master document to JSON
     with open(args.output, "w", encoding="utf-8") as f:
-        f.write(master_doc.model_dump_json(indent=2))
+        f.write(master_doc.model_dump_json(indent=2) + "\n")
 
     print(f"\nSuccessfully compiled {len(files)} files into {args.output}")
 

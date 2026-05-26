@@ -1,0 +1,763 @@
+{
+  "providers": [
+    {
+      "name": "Atlante",
+      "plans": [
+        {
+          "name": "Fixo",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "APP"
+          ],
+          "networks": [
+            {
+              "name": "MOBIE",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.49,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Atlante TPA",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "CREDIT_CARD",
+            "DEBIT_CARD"
+          ],
+          "networks": [
+            {
+              "name": "ATLA",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 50.0,
+                      "price": 0.6,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 50.0,
+                      "max": 180.0,
+                      "price": 0.7,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 180.0,
+                      "max": null,
+                      "price": 0.75,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Continente",
+      "plans": [
+        {
+          "name": "Plug&Charge App",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "APP"
+          ],
+          "networks": [
+            {
+              "name": "CONTINENTE",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "AC",
+                  "price": 0.35,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                },
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 120.0,
+                      "price": 0.41,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 120.0,
+                      "max": null,
+                      "price": 0.55,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electroverse",
+      "plans": [
+        {
+          "name": "Base",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": null,
+          "networks": [
+            {
+              "name": "MOBIE",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": null,
+                  "price": 0.3,
+                  "unit": "flat",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                },
+                {
+                  "type": "AC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 22.0,
+                      "price": 0.4,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 22.0,
+                      "max": null,
+                      "price": 0.58,
+                      "unit": "energy"
+                    }
+                  ]
+                },
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 50.0,
+                      "price": 0.58,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 50.0,
+                      "max": 150.0,
+                      "price": 0.68,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 150.0,
+                      "max": null,
+                      "price": 0.75,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "IONY",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.59,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ionity Subscription",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": 12.0,
+          "months": 1,
+          "period": null,
+          "payment_methods": null,
+          "networks": [
+            {
+              "name": "IONY",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": null,
+                  "price": 0.3,
+                  "unit": "flat",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                },
+                {
+                  "type": "DC",
+                  "price": 0.37,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Powerdot Subscription",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": 2.0,
+          "months": 1,
+          "period": null,
+          "payment_methods": null,
+          "networks": [
+            {
+              "name": "HORZ",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": null,
+                  "price": 0.3,
+                  "unit": "flat",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                },
+                {
+                  "type": "AC",
+                  "price": 0.3,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                },
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 50.0,
+                      "price": 0.44,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 50.0,
+                      "max": 150.0,
+                      "price": 0.51,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 150.0,
+                      "max": null,
+                      "price": 0.56,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elli",
+      "plans": [
+        {
+          "name": "Base",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": null,
+          "networks": [
+            {
+              "name": "MOBIE",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 50.0,
+                      "price": 0.41,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 50.0,
+                      "max": 150.0,
+                      "price": 0.54,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 150.0,
+                      "max": null,
+                      "price": 0.63,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "IONY",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.79,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enable Mobility",
+      "plans": [
+        {
+          "name": "Enable Mobility Ad-Hoc",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "AD_HOC_PAYMENT",
+            "DEBIT_CARD",
+            "CREDIT_CARD"
+          ],
+          "networks": [
+            {
+              "name": "ENBL",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 100.0,
+                      "price": 0.46,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 100.0,
+                      "max": 180.0,
+                      "price": 0.52,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 180.0,
+                      "max": null,
+                      "price": 0.58,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Galp",
+      "plans": [
+        {
+          "name": "Galp TPA",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "CREDIT_CARD",
+            "DEBIT_CARD"
+          ],
+          "networks": [
+            {
+              "name": "GLPP",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": 180.0,
+                      "max": null,
+                      "price": 0.8,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iberdrola/BP",
+      "plans": [
+        {
+          "name": "Iberdrola/BP Pulse TPA",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "CREDIT_CARD",
+            "DEBIT_CARD"
+          ],
+          "networks": [
+            {
+              "name": "FCTO",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": null,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": [
+                    {
+                      "min": null,
+                      "max": 50.0,
+                      "price": 0.6,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 50.0,
+                      "max": 180.0,
+                      "price": 0.75,
+                      "unit": "energy"
+                    },
+                    {
+                      "min": 180.0,
+                      "max": null,
+                      "price": 0.8,
+                      "unit": "energy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moeve",
+      "plans": [
+        {
+          "name": "Moeve TPA",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "CREDIT_CARD",
+            "DEBIT_CARD"
+          ],
+          "networks": [
+            {
+              "name": "CEPS",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.55,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            },
+            {
+              "name": "PROP",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.55,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prio",
+      "plans": [
+        {
+          "name": "Prio TPA",
+          "country_code": null,
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": null,
+          "networks": [
+            {
+              "name": "PRIO",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.7,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tesla",
+      "plans": [
+        {
+          "name": "Base",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "CREDIT_CARD",
+            "DEBIT_CARD",
+            "AD_HOC_PAYMENT",
+            "APP"
+          ],
+          "networks": [
+            {
+              "name": "TSLA",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.49,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Member",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": 12.0,
+          "months": 1,
+          "period": null,
+          "payment_methods": [
+            "APP"
+          ],
+          "networks": [
+            {
+              "name": "TSLA",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.35,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MultiPass",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "APP",
+            "RFID_CARD"
+          ],
+          "networks": [
+            {
+              "name": "IONY",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.54,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wenea",
+      "plans": [
+        {
+          "name": "Wenea (Confirmar App)",
+          "country_code": "PT",
+          "start_date": null,
+          "end_date": null,
+          "cost": null,
+          "months": null,
+          "period": null,
+          "payment_methods": [
+            "APP"
+          ],
+          "networks": [
+            {
+              "name": "MOBIE",
+              "included_cpos": null,
+              "excluded_cpos": null,
+              "tariffs": [
+                {
+                  "type": "DC",
+                  "price": 0.59,
+                  "unit": "energy",
+                  "min": null,
+                  "max": null,
+                  "tiers": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
