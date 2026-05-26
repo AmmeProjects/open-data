@@ -154,7 +154,9 @@
             {
               "name": "MOBIE",
               "included_cpos": null,
-              "excluded_cpos": null,
+              "excluded_cpos": [
+                "IONY"
+              ],
               "tariffs": [
                 {
                   "type": null,

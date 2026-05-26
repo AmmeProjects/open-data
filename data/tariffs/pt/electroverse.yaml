@@ -5,6 +5,8 @@ providers:
     country_code: PT
     networks:
     - name: MOBIE
+      excluded_cpos:
+      - IONY
       tariffs:
       - unit: flat
         price: 0.3

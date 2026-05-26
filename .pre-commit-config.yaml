@@ -40,3 +40,4 @@ repos:
     entry: uv run python -m src.tariffs.compile_tariffs
     files: ^data/tariffs/.+\.yaml$
     types: [ yaml ]
+    pass_filenames: false
