@@ -24,16 +24,16 @@ providers:
         networks:
         - name: "NetworkName" # e.g., "MOBIE"
           included_cpos:  # Omit or set to empty list if all CPOs in the network are included
-            - "CPO001" # List of CPO IDs included in this plan (optional)          
-          excluded_cpos: 
+            - "CPO001" # List of CPO IDs included in this plan (optional)
+          excluded_cpos:
             - "CPO003" # List of CPO IDs excluded from this plan (optional)
-  
+
           tariffs:
             # Simple tariff: One price for all charging speeds of a given current type
             - type: AC # AC or DC
               price: 0.40 # Price amount
               unit: energy # Pricing unit. Default is 'energy' (per kWh). Other options: 'time' (per minute), 'flat' (per session), 'parking' (per minute)
-            
+
             # Tiered tariff: Different prices based on the charger's max power
             - type: DC
               tiers:
@@ -47,7 +47,7 @@ providers:
                 - min: 150    # For chargers above 150 kW (no max limit)
                   price: 0.75
                   unit: energy
-                  
+
             # Example of multiple pricing components (e.g., energy + flat fee)
             - type: DC
               price: 0.50

@@ -1,0 +1,42 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v3.2.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-yaml
+
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: v0.15.14
+  hooks:
+    # Run the linter.
+    - id: ruff-check
+      types_or: [ python, pyi ]
+      args: [ --fix ]
+    # Run the formatter.
+    - id: ruff-format
+      types_or: [ python, pyi ]
+
+- repo: https://github.com/astral-sh/uv-pre-commit
+    # uv version.
+  rev: 0.11.16
+  hooks:
+  - id: uv-lock
+
+- repo: local
+  hooks:
+  - id: validate-tariff-yaml
+    name: Validate Tariff YAML
+    description: Validate the structure and content of tariff YAML files using a custom Python script.
+    language: system
+    entry: uv run python -m src.tariffs.validate_tariffs
+    files: ^data/tariffs/.+\.yaml$
+    types: [ yaml ]
+  - id: compile-tariff-yaml
+    name: Compile Tariff YAML
+    description: Compile individual tariff YAML files into a master JSON file using a custom Python script.
+    language: system
+    entry: uv run python -m src.tariffs.compile_tariffs
+    files: ^data/tariffs/.+\.yaml$
+    types: [ yaml ]
