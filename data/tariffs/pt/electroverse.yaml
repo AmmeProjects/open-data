@@ -1,0 +1,63 @@
+providers:
+- name: Electroverse
+  plans:
+  - name: Base
+    country_code: PT
+    networks:
+    - name: MOBIE
+      tariffs:
+      - unit: flat
+        price: 0.3
+      - type: AC
+        tiers:
+        - max: 22
+          price: 0.4
+        - min: 22
+          price: 0.58
+      - type: DC
+        tiers:
+        - max: 50
+          price: 0.58
+        - min: 50
+          max: 150
+          price: 0.68
+        - min: 150
+          price: 0.75
+
+    - name: IONY
+      tariffs:
+      - type: DC
+        price: 0.59
+
+  - name: Ionity Subscription
+    country_code: PT
+    cost: 12.0
+    months: 1
+    networks:
+    - name: IONY
+      tariffs:
+      - unit: flat
+        price: 0.3
+      - type: DC
+        price: 0.37
+
+  - name: Powerdot Subscription
+    country_code: PT
+    cost: 2.0
+    months: 1
+    networks:
+    - name: HORZ
+      tariffs:
+      - unit: flat
+        price: 0.3
+      - type: AC
+        price: 0.3
+      - type: DC
+        tiers:
+        - max: 50
+          price: 0.44
+        - min: 50
+          max: 150
+          price: 0.51
+        - min: 150
+          price: 0.56

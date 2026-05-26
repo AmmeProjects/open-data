@@ -1,0 +1,12 @@
+providers:
+- name: Wenea
+  plans:
+  - name: Wenea (Confirmar App)
+    country_code: PT
+    payment_methods:
+      - APP
+    networks:
+    - name: MOBIE
+      tariffs:
+      - type: DC
+        price: 0.59

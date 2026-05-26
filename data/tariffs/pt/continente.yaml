@@ -1,0 +1,18 @@
+providers:
+- name: Continente
+  plans:
+  - name: Plug&Charge App
+    country_code: PT
+    payment_methods:
+      - APP
+    networks:
+    - name: CONTINENTE
+      tariffs:
+      - type: AC
+        price: 0.35
+      - type: DC
+        tiers:
+        - max: 120
+          price: 0.41
+        - min: 120
+          price: 0.55

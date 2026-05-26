@@ -1,0 +1,13 @@
+providers:
+- name: Prio
+  country_code: PT
+  payment_methods:
+    - CREDIT_CARD
+    - DEBIT_CARD
+  plans:
+  - name: Prio TPA
+    networks:
+    - name: PRIO
+      tariffs:
+      - type: DC
+        price: 0.7

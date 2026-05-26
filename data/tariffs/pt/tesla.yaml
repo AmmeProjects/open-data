@@ -1,0 +1,41 @@
+providers:
+
+- name: Tesla
+  plans:
+  - name: Base
+    country_code: PT
+    payment_methods:
+      - CREDIT_CARD
+      - DEBIT_CARD
+      - AD_HOC_PAYMENT
+      - APP
+    networks:
+    - name: TSLA
+      tariffs:
+      - type: DC
+        price: 0.49
+
+
+  - name: Member
+    cost: 12.0
+    months: 1
+    country_code: PT
+    payment_methods:
+      - APP
+    networks:
+    - name: TSLA
+      tariffs:
+      - type: DC
+        price: 0.35
+
+
+  - name: MultiPass
+    country_code: PT
+    payment_methods:
+      - APP
+      - RFID_CARD
+    networks:
+    - name: IONY
+      tariffs:
+      - type: DC
+        price: 0.54

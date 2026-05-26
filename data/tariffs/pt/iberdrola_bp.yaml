@@ -1,0 +1,20 @@
+providers:
+- name: Iberdrola/BP
+  plans:
+  - name: Iberdrola/BP Pulse TPA
+    country_code: PT
+    payment_methods:
+      - CREDIT_CARD
+      - DEBIT_CARD
+    networks:
+    - name: FCTO
+      tariffs:
+      - type: DC
+        tiers:
+        - max: 50
+          price: 0.6
+        - min: 50
+          max: 180
+          price: 0.75
+        - min: 180
+          price: 0.8

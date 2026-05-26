@@ -1,0 +1,17 @@
+providers:
+- name: Moeve
+  plans:
+  - name: Moeve TPA
+    country_code: PT
+    payment_methods:
+      - CREDIT_CARD
+      - DEBIT_CARD
+    networks:
+    - name: CEPS
+      tariffs:
+      - type: DC
+        price: 0.55
+    - name: PROP
+      tariffs:
+      - type: DC
+        price: 0.55

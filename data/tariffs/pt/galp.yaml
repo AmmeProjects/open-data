@@ -1,0 +1,15 @@
+providers:
+- name: Galp
+  plans:
+  - name: Galp TPA
+    country_code: PT
+    payment_methods:
+      - CREDIT_CARD
+      - DEBIT_CARD
+    networks:
+    - name: GLPP
+      tariffs:
+      - type: DC
+        tiers:
+        - min: 180
+          price: 0.8

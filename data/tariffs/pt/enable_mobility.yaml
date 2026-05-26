@@ -1,0 +1,22 @@
+providers:
+- name: Enable Mobility
+  plans:
+  - name: Enable Mobility Ad-Hoc
+    country_code: PT
+    payment_methods:
+    - AD_HOC_PAYMENT
+    - DEBIT_CARD
+    - CREDIT_CARD
+
+    networks:
+    - name: ENBL
+      tariffs:
+      - type: DC
+        tiers:
+        - max: 100
+          price: 0.46
+        - min: 100
+          max: 180
+          price: 0.52
+        - min: 180
+          price: 0.58
