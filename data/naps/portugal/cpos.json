@@ -1,12 +1,13 @@
 [
   {
     "id": "ACCI",
-    "name": "ACCIONA RECARGA PORTUGAL,UNIPESSOAL LDA",
+    "name": "Acciona Recarga Portugal",
     "country_code": "PT",
     "website": null,
     "vat_id": "517229765",
     "telephone": "214241810",
-    "id_parent": null
+    "display_name": "Acciona",
+    "parent_id": null
   },
   {
     "id": "ALFA",
@@ -15,16 +16,18 @@
     "website": null,
     "vat_id": "514362650",
     "telephone": "234661194",
-    "id_parent": null
+    "display_name": "Alfa Energia",
+    "parent_id": null
   },
   {
     "id": "ATLA",
-    "name": "Atlante Infra Portugal, S.A.",
+    "name": "Atlante Infra Portugal, S.A",
     "country_code": "PT",
     "website": null,
     "vat_id": "513989536",
     "telephone": "935991897",
-    "id_parent": null
+    "display_name": "Atlante",
+    "parent_id": null
   },
   {
     "id": "AUCH",
@@ -33,7 +36,8 @@
     "website": null,
     "vat_id": "503003808",
     "telephone": "925210850",
-    "id_parent": null
+    "display_name": "Auchan",
+    "parent_id": null
   },
   {
     "id": "BELM",
@@ -42,7 +46,8 @@
     "website": null,
     "vat_id": "518083594",
     "telephone": "932996119",
-    "id_parent": null
+    "display_name": "Blk Mobility",
+    "parent_id": null
   },
   {
     "id": "BINT",
@@ -51,7 +56,8 @@
     "website": "https://bluint.pt/",
     "vat_id": "517398168",
     "telephone": "253305400",
-    "id_parent": null
+    "display_name": "Bluint",
+    "parent_id": null
   },
   {
     "id": "BLUE",
@@ -60,7 +66,8 @@
     "website": "https://bluecharge.pt",
     "vat_id": "515096598",
     "telephone": "211119966",
-    "id_parent": null
+    "display_name": "Bluecharge",
+    "parent_id": null
   },
   {
     "id": "BRIG",
@@ -69,7 +76,8 @@
     "website": null,
     "vat_id": "516104659",
     "telephone": "914261887",
-    "id_parent": null
+    "display_name": "Brightcity",
+    "parent_id": null
   },
   {
     "id": "CAPW",
@@ -78,16 +86,18 @@
     "website": "https://www.capwatt.com",
     "vat_id": "508523460",
     "telephone": "220129500",
-    "id_parent": null
+    "display_name": "Capwatt",
+    "parent_id": null
   },
   {
     "id": "CARG",
     "name": "Cargga Inteligente",
     "country_code": "PT",
-    "website": "https://www.cargga.com",
+    "website": null,
     "vat_id": "515146234",
     "telephone": "939853881",
-    "id_parent": null
+    "display_name": "Cargga Inteligente",
+    "parent_id": null
   },
   {
     "id": "CEPS",
@@ -96,16 +106,18 @@
     "website": "https://cepsa.pt",
     "vat_id": "500513295",
     "telephone": "217249360",
-    "id_parent": null
+    "display_name": "Cepsa",
+    "parent_id": null
   },
   {
     "id": "CEVE",
-    "name": "CEVE - Cooperativa Eléctrica do Vale D’Este C.R.L.",
+    "name": "Cooperativa Elétrica de Vale d´Este",
     "country_code": "PT",
-    "website": "https://www.ceve.pt",
+    "website": null,
     "vat_id": "500960577",
     "telephone": "252309651",
-    "id_parent": null
+    "display_name": "Cooperativa CEVE",
+    "parent_id": null
   },
   {
     "id": "CIRC",
@@ -114,7 +126,8 @@
     "website": "https://www.circuitos.pt/",
     "vat_id": "507910826",
     "telephone": "224154612",
-    "id_parent": null
+    "display_name": "Circuitos Solutions",
+    "parent_id": null
   },
   {
     "id": "CMEL",
@@ -123,7 +136,8 @@
     "website": null,
     "vat_id": "501369295",
     "telephone": "939007737",
-    "id_parent": null
+    "display_name": "CME",
+    "parent_id": null
   },
   {
     "id": "CONM",
@@ -132,16 +146,18 @@
     "website": null,
     "vat_id": "517820358",
     "telephone": "213933190",
-    "id_parent": null
+    "display_name": "ConectaMais",
+    "parent_id": null
   },
   {
     "id": "CSCP",
-    "name": "Cascais Próxima",
+    "name": "Cascais Proxima",
     "country_code": "PT",
     "website": null,
     "vat_id": "504853635",
     "telephone": "214647760",
-    "id_parent": null
+    "display_name": "Cascais Proxima",
+    "parent_id": null
   },
   {
     "id": "DTEI",
@@ -150,25 +166,28 @@
     "website": null,
     "vat_id": "501866116",
     "telephone": "914108184",
-    "id_parent": null
+    "display_name": "DTE Instalações",
+    "parent_id": null
   },
   {
     "id": "ECOI",
-    "name": "Ecoinside – Soluções em Ecoeficiência e Sustentabilidade Lda",
+    "name": "Ecoinside - Soluções em Ecoeficiência e Sustentabilidade Lda",
     "country_code": "PT",
-    "website": null,
+    "website": "https://www.ecoinside.pt/",
     "vat_id": "507580745",
     "telephone": "226173343",
-    "id_parent": null
+    "display_name": "Ecoinside",
+    "parent_id": null
   },
   {
     "id": "EDPC",
     "name": "EDP Comercial",
     "country_code": "PT",
-    "website": null,
+    "website": "https://www.edp.pt/particulares/",
     "vat_id": "503504564",
     "telephone": "800222222",
-    "id_parent": null
+    "display_name": "EDP Comercial",
+    "parent_id": null
   },
   {
     "id": "EMAC",
@@ -177,7 +196,8 @@
     "website": null,
     "vat_id": "511109741",
     "telephone": "800916624",
-    "id_parent": null
+    "display_name": "EMACOM",
+    "parent_id": null
   },
   {
     "id": "EMEL",
@@ -186,7 +206,8 @@
     "website": "https://www.emel.pt/pt/mobilidade/mais-mobilidade/leve-mobilidade-eletrica-de-lisboa/",
     "vat_id": "503311332",
     "telephone": "211163060",
-    "id_parent": null
+    "display_name": "EMEL Lisboa",
+    "parent_id": null
   },
   {
     "id": "EMOB",
@@ -195,7 +216,8 @@
     "website": "http://www.emobtec.pt",
     "vat_id": "514340711",
     "telephone": "915770780",
-    "id_parent": null
+    "display_name": "Emobtec",
+    "parent_id": null
   },
   {
     "id": "ENBL",
@@ -204,7 +226,8 @@
     "website": null,
     "vat_id": "518306240",
     "telephone": "935991897",
-    "id_parent": null
+    "display_name": "Enable Mobility",
+    "parent_id": null
   },
   {
     "id": "ENER",
@@ -213,7 +236,8 @@
     "website": "http://www.enercom.pt",
     "vat_id": "510155642",
     "telephone": "210173409",
-    "id_parent": null
+    "display_name": "Enercom",
+    "parent_id": null
   },
   {
     "id": "EPOC",
@@ -222,7 +246,8 @@
     "website": null,
     "vat_id": "504612069",
     "telephone": "214707199",
-    "id_parent": null
+    "display_name": "EPOCH",
+    "parent_id": null
   },
   {
     "id": "EVAE",
@@ -231,7 +256,8 @@
     "website": null,
     "vat_id": "518378462",
     "telephone": "912549428",
-    "id_parent": null
+    "display_name": "EVAZ Energy",
+    "parent_id": null
   },
   {
     "id": "EVCE",
@@ -240,7 +266,8 @@
     "website": "https://www.mobismart.pt",
     "vat_id": "514385472",
     "telephone": "800301303",
-    "id_parent": null
+    "display_name": "EVCE Power",
+    "parent_id": null
   },
   {
     "id": "EVGR",
@@ -249,16 +276,18 @@
     "website": null,
     "vat_id": "516067885",
     "telephone": "912257529",
-    "id_parent": null
+    "display_name": "Green Evolut",
+    "parent_id": null
   },
   {
     "id": "EVIO",
     "name": "EVIO - Electrical Mobility",
     "country_code": "PT",
-    "website": "https://evio.pt/",
+    "website": null,
     "vat_id": "515681890",
     "telephone": "220164897",
-    "id_parent": null
+    "display_name": "EVIO",
+    "parent_id": null
   },
   {
     "id": "EVPW",
@@ -267,7 +296,8 @@
     "website": "https://www.evpower.pt",
     "vat_id": "514044110",
     "telephone": "212435107",
-    "id_parent": null
+    "display_name": "EVpower",
+    "parent_id": null
   },
   {
     "id": "EZC3",
@@ -276,7 +306,8 @@
     "website": "https://ez-charg3.com",
     "vat_id": "516550942",
     "telephone": "918590002",
-    "id_parent": null
+    "display_name": "EZ-CHARG3",
+    "parent_id": null
   },
   {
     "id": "EZUR",
@@ -285,7 +316,8 @@
     "website": "https://ezu.pt",
     "vat_id": "513983511",
     "telephone": "966044634",
-    "id_parent": null
+    "display_name": "Ezu Energia",
+    "parent_id": null
   },
   {
     "id": "FACT",
@@ -294,16 +326,18 @@
     "website": "https://www.factorenergia.pt",
     "vat_id": "266666666",
     "telephone": "291764204",
-    "id_parent": null
+    "display_name": "FactorENERGIA",
+    "parent_id": null
   },
   {
     "id": "FCTO",
-    "name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+    "name": "Iberdrola | bp pulse",
     "country_code": "PT",
     "website": null,
     "vat_id": "517696010",
     "telephone": "800181043",
-    "id_parent": null
+    "display_name": "Iberdrola | bp pulse",
+    "parent_id": null
   },
   {
     "id": "FRIO",
@@ -312,7 +346,8 @@
     "website": null,
     "vat_id": "504131249",
     "telephone": "253439030",
-    "id_parent": null
+    "display_name": "Distrifrio Supermercados",
+    "parent_id": null
   },
   {
     "id": "FRTR",
@@ -321,7 +356,8 @@
     "website": null,
     "vat_id": "513403760",
     "telephone": "255810219",
-    "id_parent": null
+    "display_name": "FRONTROW",
+    "parent_id": null
   },
   {
     "id": "GASF",
@@ -330,7 +366,8 @@
     "website": null,
     "vat_id": "503460656",
     "telephone": "218391100",
-    "id_parent": null
+    "display_name": "Gasfomento",
+    "parent_id": null
   },
   {
     "id": "GENJ",
@@ -339,16 +376,18 @@
     "website": null,
     "vat_id": "515085642",
     "telephone": "931967475",
-    "id_parent": null
+    "display_name": "Generation Journey",
+    "parent_id": null
   },
   {
     "id": "GLPG",
-    "name": "Galpgeste",
+    "name": "Galp Gest",
     "country_code": "PT",
     "website": null,
     "vat_id": "999999999",
     "telephone": "210058800",
-    "id_parent": null
+    "display_name": "Galp",
+    "parent_id": null
   },
   {
     "id": "GLPP",
@@ -357,7 +396,8 @@
     "website": null,
     "vat_id": "504723456",
     "telephone": "917327773",
-    "id_parent": null
+    "display_name": "Galp",
+    "parent_id": null
   },
   {
     "id": "GOLD",
@@ -366,7 +406,8 @@
     "website": "https://goldenergy.pt",
     "vat_id": "507857542",
     "telephone": "259348634",
-    "id_parent": null
+    "display_name": "Gold Energy",
+    "parent_id": null
   },
   {
     "id": "GRCA",
@@ -375,7 +416,8 @@
     "website": "https://www.evaz.energy",
     "vat_id": "509976719",
     "telephone": "910847445",
-    "id_parent": null
+    "display_name": "EVAZ Energy",
+    "parent_id": null
   },
   {
     "id": "GREE",
@@ -384,7 +426,8 @@
     "website": "http://www.greencharge.pt/pt/",
     "vat_id": "513822445",
     "telephone": "808200600",
-    "id_parent": null
+    "display_name": "Green Charge",
+    "parent_id": null
   },
   {
     "id": "HELX",
@@ -393,7 +436,8 @@
     "website": "https://helexia.pt/",
     "vat_id": "513932704",
     "telephone": "210181157",
-    "id_parent": null
+    "display_name": "Helexia",
+    "parent_id": null
   },
   {
     "id": "HEXA",
@@ -402,7 +446,8 @@
     "website": "https://www.hexagonalocean.pt",
     "vat_id": "516205331",
     "telephone": "210961531",
-    "id_parent": null
+    "display_name": "Hexagonal Ocean",
+    "parent_id": null
   },
   {
     "id": "HIGH",
@@ -411,16 +456,18 @@
     "website": "https://www.highgreenpower.pt/",
     "vat_id": "514377119",
     "telephone": "304503212",
-    "id_parent": null
+    "display_name": "High Green Power",
+    "parent_id": null
   },
   {
     "id": "HORZ",
-    "name": "Horizondistance, Unipessoal Lda",
+    "name": "Powerdot, S.A",
     "country_code": "PT",
     "website": "https://www.powerdot.eu/",
     "vat_id": "514790342",
     "telephone": "800180292",
-    "id_parent": null
+    "display_name": "Powerdot",
+    "parent_id": null
   },
   {
     "id": "IBRD",
@@ -429,7 +476,8 @@
     "website": "https://www.iberdrola.pt/casa/energia#mobilidade-eletrica",
     "vat_id": "502124083",
     "telephone": "213502750",
-    "id_parent": null
+    "display_name": "Iberdrola",
+    "parent_id": null
   },
   {
     "id": "IHOM",
@@ -438,16 +486,18 @@
     "website": "https://www.ihome.pt",
     "vat_id": "507890949",
     "telephone": "914876086",
-    "id_parent": null
+    "display_name": "iHome",
+    "parent_id": null
   },
   {
     "id": "IMAG",
-    "name": "Image 4 all – Eficiência Energética, Comunicação e Imagem,Lda",
+    "name": "Image4all - Eficiência Energética, Comunicação e Imagem",
     "country_code": "PT",
     "website": "https://image4all.pt",
     "vat_id": "506289737",
     "telephone": "211960354",
-    "id_parent": null
+    "display_name": "Image4all",
+    "parent_id": null
   },
   {
     "id": "INTV",
@@ -456,7 +506,8 @@
     "website": null,
     "vat_id": "517045320",
     "telephone": "932117315",
-    "id_parent": null
+    "display_name": "Instavolt",
+    "parent_id": null
   },
   {
     "id": "INVP",
@@ -465,7 +516,8 @@
     "website": null,
     "vat_id": "515307840",
     "telephone": "258959140",
-    "id_parent": null
+    "display_name": "Intervilapraia",
+    "parent_id": null
   },
   {
     "id": "IONY",
@@ -474,7 +526,8 @@
     "website": "https://ionity.eu",
     "vat_id": "980620899",
     "telephone": "980620899",
-    "id_parent": null
+    "display_name": "Ionity",
+    "parent_id": null
   },
   {
     "id": "JHOR",
@@ -483,7 +536,8 @@
     "website": null,
     "vat_id": "512000956",
     "telephone": "296302900",
-    "id_parent": null
+    "display_name": "JH Ornelas",
+    "parent_id": null
   },
   {
     "id": "KLCS",
@@ -492,7 +546,8 @@
     "website": "https://kmlowcost.com/",
     "vat_id": "517213575",
     "telephone": "234037102",
-    "id_parent": null
+    "display_name": "Kilometer Low Cost",
+    "parent_id": null
   },
   {
     "id": "KPMS",
@@ -501,7 +556,8 @@
     "website": null,
     "vat_id": "515662607",
     "telephone": "222434844",
-    "id_parent": null
+    "display_name": "KPM Engenharia",
+    "parent_id": null
   },
   {
     "id": "LOGI",
@@ -510,7 +566,8 @@
     "website": "http://www.ucharge.pt",
     "vat_id": "514645024",
     "telephone": "210939606",
-    "id_parent": null
+    "display_name": "uCharge",
+    "parent_id": null
   },
   {
     "id": "LOUL",
@@ -519,7 +576,8 @@
     "website": "https://www.lcglobal.pt/",
     "vat_id": "505493870",
     "telephone": "289401080",
-    "id_parent": null
+    "display_name": "Loulé Concelho Global",
+    "parent_id": null
   },
   {
     "id": "LUSI",
@@ -528,7 +586,8 @@
     "website": null,
     "vat_id": "513816666",
     "telephone": "282333010",
-    "id_parent": null
+    "display_name": "Lusiada Energia",
+    "parent_id": null
   },
   {
     "id": "MAKS",
@@ -537,7 +596,8 @@
     "website": "http://evportugal.maksu.com/pt",
     "vat_id": "510711464",
     "telephone": "213847300",
-    "id_parent": null
+    "display_name": "Maksu",
+    "parent_id": null
   },
   {
     "id": "MEOE",
@@ -546,16 +606,18 @@
     "website": "https://www.meoenergia.pt/",
     "vat_id": "506743357",
     "telephone": "253738288",
-    "id_parent": null
+    "display_name": "MEO Energia",
+    "parent_id": null
   },
   {
     "id": "MLTR",
-    "name": "Mobiletric, LDA",
+    "name": "Mobiletric",
     "country_code": "PT",
     "website": null,
     "vat_id": "999999999",
     "telephone": "963089240",
-    "id_parent": null
+    "display_name": "Mobiletric",
+    "parent_id": null
   },
   {
     "id": "MOBA",
@@ -564,7 +626,8 @@
     "website": null,
     "vat_id": "514591110",
     "telephone": "210514956",
-    "id_parent": null
+    "display_name": "MOBI A",
+    "parent_id": null
   },
   {
     "id": "MOBI",
@@ -573,16 +636,18 @@
     "website": "https://www.mobie.pt",
     "vat_id": "509767606",
     "telephone": "212699830",
-    "id_parent": null
+    "display_name": "MOBI.E",
+    "parent_id": "MOBIE"
   },
   {
     "id": "MOON",
-    "name": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)",
+    "name": "Siva - Sociedade de Importação de Veículos Automóveis",
     "country_code": "PT",
     "website": "https://moon-power.pt",
     "vat_id": "500301522",
     "telephone": "263407057",
-    "id_parent": null
+    "display_name": "Moon",
+    "parent_id": null
   },
   {
     "id": "MOTA",
@@ -591,7 +656,8 @@
     "website": "https://renewing.pt",
     "vat_id": "506805123",
     "telephone": "220914260",
-    "id_parent": null
+    "display_name": "Mota-Engil Renewing",
+    "parent_id": null
   },
   {
     "id": "NEUR",
@@ -600,16 +666,18 @@
     "website": null,
     "vat_id": "516400991",
     "telephone": "253727437",
-    "id_parent": null
+    "display_name": "Neureifen",
+    "parent_id": null
   },
   {
     "id": "NRGS",
-    "name": "NRG - Sistemas de Energia Renováveis, Lda.",
+    "name": "Original Sunenergy, Lda",
     "country_code": "PT",
-    "website": null,
+    "website": "https://www.sunenergy.pt/operacao-postos-de-carregamento/",
     "vat_id": "509220401",
     "telephone": "239700750",
-    "id_parent": null
+    "display_name": "Sunenergy",
+    "parent_id": null
   },
   {
     "id": "PACO",
@@ -618,7 +686,8 @@
     "website": "https://www.pagroup.pt/",
     "vat_id": "513253734",
     "telephone": "212977640",
-    "id_parent": null
+    "display_name": "Pacorp",
+    "parent_id": null
   },
   {
     "id": "PARI",
@@ -627,7 +696,8 @@
     "website": null,
     "vat_id": "505127334",
     "telephone": "939832160",
-    "id_parent": null
+    "display_name": "Parinox",
+    "parent_id": null
   },
   {
     "id": "PLUG",
@@ -636,7 +706,8 @@
     "website": "https://eplug.pt",
     "vat_id": "515621820",
     "telephone": "210907524",
-    "id_parent": null
+    "display_name": "e-Plug",
+    "parent_id": null
   },
   {
     "id": "PRIO",
@@ -645,7 +716,8 @@
     "website": null,
     "vat_id": "509299652",
     "telephone": "234390010",
-    "id_parent": null
+    "display_name": "Prio.E",
+    "parent_id": null
   },
   {
     "id": "PROP",
@@ -654,7 +726,8 @@
     "website": "https://cepsa.pt",
     "vat_id": "500223840",
     "telephone": "217249360",
-    "id_parent": null
+    "display_name": "Propel",
+    "parent_id": null
   },
   {
     "id": "PTER",
@@ -663,7 +736,8 @@
     "website": "http://www.ynerluz.com",
     "vat_id": "500981680",
     "telephone": "220917900",
-    "id_parent": null
+    "display_name": "Petrotermica",
+    "parent_id": null
   },
   {
     "id": "REMO",
@@ -672,7 +746,8 @@
     "website": null,
     "vat_id": "518623785",
     "telephone": "225190300",
-    "id_parent": null
+    "display_name": "Mota-Engil Remo",
+    "parent_id": null
   },
   {
     "id": "REPS",
@@ -681,7 +756,8 @@
     "website": null,
     "vat_id": "500246963",
     "telephone": "213119000",
-    "id_parent": null
+    "display_name": "Repsol",
+    "parent_id": null
   },
   {
     "id": "SARE",
@@ -690,7 +766,8 @@
     "website": null,
     "vat_id": "509296661",
     "telephone": "258808090",
-    "id_parent": null
+    "display_name": "Superareosa Supermercados",
+    "parent_id": null
   },
   {
     "id": "SCRZ",
@@ -699,7 +776,8 @@
     "website": "https://www.cm-santacruz.pt",
     "vat_id": "511244681",
     "telephone": "291520100",
-    "id_parent": null
+    "display_name": "Município de Santa Cruz",
+    "parent_id": null
   },
   {
     "id": "SDBR",
@@ -708,7 +786,8 @@
     "website": null,
     "vat_id": "506155137",
     "telephone": "232096437",
-    "id_parent": null
+    "display_name": "SodiBraga Supermercados",
+    "parent_id": null
   },
   {
     "id": "SEGM",
@@ -717,7 +796,8 @@
     "website": "https://www.segma.pt",
     "vat_id": "512047707",
     "telephone": "296202209",
-    "id_parent": null
+    "display_name": "Segma",
+    "parent_id": null
   },
   {
     "id": "SFAF",
@@ -726,7 +806,8 @@
     "website": null,
     "vat_id": "503961159",
     "telephone": "253598000",
-    "id_parent": null
+    "display_name": "Superfafe Supermercados",
+    "parent_id": null
   },
   {
     "id": "SGMR",
@@ -735,7 +816,8 @@
     "website": null,
     "vat_id": "509009620",
     "telephone": "253598000",
-    "id_parent": null
+    "display_name": "Superguimarães Supermercados",
+    "parent_id": null
   },
   {
     "id": "SILV",
@@ -744,7 +826,8 @@
     "website": "https://www.silverridge.pt",
     "vat_id": "516217674",
     "telephone": "966331078",
-    "id_parent": null
+    "display_name": "Silver Ridge",
+    "parent_id": null
   },
   {
     "id": "SOLX",
@@ -753,7 +836,8 @@
     "website": "https://SolX.pt",
     "vat_id": "516155164",
     "telephone": "218931025",
-    "id_parent": null
+    "display_name": "SOLX",
+    "parent_id": null
   },
   {
     "id": "TRUE",
@@ -762,7 +846,8 @@
     "website": "https://www.wowplug.com",
     "vat_id": "516296426",
     "telephone": "211591324",
-    "id_parent": null
+    "display_name": null,
+    "parent_id": null
   },
   {
     "id": "VEIM",
@@ -771,7 +856,8 @@
     "website": "https://www.powercharge.pt",
     "vat_id": "501462473",
     "telephone": "266896443",
-    "id_parent": null
+    "display_name": "Veimonte",
+    "parent_id": null
   },
   {
     "id": "VIAV",
@@ -780,7 +866,8 @@
     "website": null,
     "vat_id": "518291332",
     "telephone": "214448500",
-    "id_parent": null
+    "display_name": "Via Verde",
+    "parent_id": null
   },
   {
     "id": "VISA",
@@ -789,7 +876,8 @@
     "website": null,
     "vat_id": "506425800",
     "telephone": "232483000",
-    "id_parent": null
+    "display_name": "Visacasa",
+    "parent_id": null
   },
   {
     "id": "WENE",
@@ -798,7 +886,8 @@
     "website": "http://wenea.com",
     "vat_id": "B88392279",
     "telephone": "+34915258800",
-    "id_parent": null
+    "display_name": "Wenea",
+    "parent_id": null
   },
   {
     "id": "ZUND",
@@ -807,6 +896,7 @@
     "website": null,
     "vat_id": "A34277434",
     "telephone": "+34979300500",
-    "id_parent": null
+    "display_name": "Zunder",
+    "parent_id": null
   }
 ]

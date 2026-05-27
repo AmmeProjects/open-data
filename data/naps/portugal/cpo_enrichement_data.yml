@@ -1,0 +1,182 @@
+cpos:
+  - id: ACCI
+    display_name: "Acciona"
+  - id: ALFA
+    display_name: "Alfa Energia"
+  - id: ATLA
+    display_name: "Atlante"
+  - id: AUCH
+    display_name: "Auchan"
+  - id: BELM
+    display_name: "Blk Mobility"
+  - id: BINT
+    display_name: "Bluint"
+  - id: BLUE
+    display_name: "Bluecharge"
+  - id: BRIG
+    display_name: "Brightcity"
+  - id: CAPW
+    display_name: "Capwatt"
+  - id: CARG
+    display_name: "Cargga Inteligente"
+  - id: CEPS
+    display_name: "Cepsa"
+  - id: CEVE
+    display_name: "Cooperativa CEVE"
+  - id: CIRC
+    display_name: "Circuitos Solutions"
+  - id: CMEL
+    display_name: "CME"
+  - id: CONM
+    display_name: "ConectaMais"
+  - id: CSCP
+    display_name: "Cascais Proxima"
+  - id: DTEI
+    display_name: "DTE Instalações"
+  - id: ECOI
+    display_name: "Ecoinside"
+  - id: EDPC
+    display_name: "EDP Comercial"
+  - id: EMAC
+    display_name: "EMACOM"
+  - id: EMEL
+    display_name: "EMEL Lisboa"
+  - id: EMOB
+    display_name: "Emobtec"
+  - id: ENBL
+    display_name: "Enable Mobility"
+  - id: ENER
+    display_name: "Enercom"
+  - id: EPOC
+    display_name: "EPOCH"
+  - id: EVAE
+    display_name: "EVAZ Energy"
+  - id: EVCE
+    display_name: "EVCE Power"
+  - id: EVGR
+    display_name: "Green Evolut"
+  - id: EVIO
+    display_name: "EVIO"
+  - id: EVPW
+    display_name: "EVpower"
+  - id: EZC3
+    display_name: "EZ-CHARG3"
+  - id: EZUR
+    display_name: "Ezu Energia"
+  - id: FACT
+    display_name: "FactorENERGIA"
+  - id: FCTO
+    display_name: "Iberdrola | bp pulse"
+  - id: FRIO
+    display_name: "Distrifrio Supermercados"
+  - id: FRTR
+    display_name: "FRONTROW"
+  - id: GASF
+    display_name: "Gasfomento"
+  - id: GENJ
+    display_name: "Generation Journey"
+  - id: GLPG
+    display_name: "Galp"
+  - id: GLPP
+    display_name: "Galp"
+  - id: GOLD
+    display_name: "Gold Energy"
+  - id: GRCA
+    display_name: "EVAZ Energy"
+  - id: GREE
+    display_name: "Green Charge"
+  - id: HELX
+    display_name: "Helexia"
+  - id: HEXA
+    display_name: "Hexagonal Ocean"
+  - id: HIGH
+    display_name: "High Green Power"
+  - id: HORZ
+    display_name: "Powerdot"
+  - id: IBRD
+    display_name: "Iberdrola"
+  - id: IHOM
+    display_name: "iHome"
+  - id: IMAG
+    display_name: "Image4all"
+  - id: INTV
+    display_name: "Instavolt"
+  - id: INVP
+    display_name: "Intervilapraia"
+  - id: IONY
+    display_name: "Ionity"
+  - id: JHOR
+    display_name: "JH Ornelas"
+  - id: KLCS
+    display_name: "Kilometer Low Cost"
+  - id: KPMS
+    display_name: "KPM Engenharia"
+  - id: LOGI
+    display_name: "uCharge"
+  - id: LOUL
+    display_name: "Loulé Concelho Global"
+  - id: LUSI
+    display_name: "Lusiada Energia"
+  - id: MAKS
+    display_name: "Maksu"
+  - id: MEOE
+    display_name: "MEO Energia"
+  - id: MLTR
+    display_name: "Mobiletric"
+  - id: MOBA
+    display_name: "MOBI A"
+  - id: MOBI
+    display_name: "MOBI.E"
+    parent_id: "MOBIE"
+  - id: MOON
+    display_name: "Moon"
+  - id: MOTA
+    display_name: "Mota-Engil Renewing"
+  - id: NEUR
+    display_name: "Neureifen"
+  - id: NRGS
+    display_name: "Sunenergy"
+  - id: PACO
+    display_name: "Pacorp"
+  - id: PARI
+    display_name: "Parinox"
+  - id: PLUG
+    display_name: "e-Plug"
+  - id: PRIO
+    display_name: "Prio.E"
+  - id: PROP
+    display_name: "Propel"
+  - id: PTER
+    display_name: "Petrotermica"
+  - id: REMO
+    display_name: "Mota-Engil Remo"
+  - id: REPS
+    display_name: "Repsol"
+  - id: SARE
+    display_name: "Superareosa Supermercados"
+  - id: SCRZ
+    display_name: "Município de Santa Cruz"
+  - id: SDBR
+    display_name: "SodiBraga Supermercados"
+  - id: SEGM
+    display_name: "Segma"
+  - id: SFAF
+    display_name: "Superfafe Supermercados"
+  - id: SGMR
+    display_name: "Superguimarães Supermercados"
+  - id: SILV
+    display_name: "Silver Ridge"
+  - id: SOLX
+    display_name: "SOLX"
+  - id: TRUE
+    display_name: "WOWPLUG"
+  - id: VEIM
+    display_name: "Veimonte"
+  - id: VIAV
+    display_name: "Via Verde"
+  - id: VISA
+    display_name: "Visacasa"
+  - id: WENE
+    display_name: "Wenea"
+  - id: ZUND
+    display_name: "Zunder"
