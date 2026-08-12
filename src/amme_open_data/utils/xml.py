@@ -4,7 +4,7 @@ import xmltodict
 
 
 def xml_to_json(input_path, force_if_exists=False):
-    
+
     if not input_path.endswith(".xml"):
         raise TypeError("Input file must be an XML.")
 
@@ -16,5 +16,5 @@ def xml_to_json(input_path, force_if_exists=False):
 
         with open(path_js, "w", encoding="utf-8") as json_file:
             json.dump(data_dict, json_file, indent=2, ensure_ascii=False)
-            
+
     return path_js

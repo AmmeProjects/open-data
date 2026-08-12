@@ -58,10 +58,9 @@ class Location:
     parking_type: ParkingType
 
     evses: list[EVSE]
-    
+
     operator: str
     opening_times: str
     # authentication_methods: str
 
     last_updated: str
-    

@@ -6,4 +6,3 @@ from dataclasses import dataclass
 class DataContainer:
     data: List | Dict | Any
     timestamp: str
-    
