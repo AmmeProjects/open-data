@@ -1,9 +1,9 @@
 import json
 
-from src.mappers.naps.portugal import extract_cpos, parse_nap_data
-from src.utils.download import Download
-from src.utils.serialize import default_serializer
-from src.utils.xml import xml_to_json
+from amme_open_data.mappers.naps.portugal import extract_cpos, parse_nap_data
+from amme_open_data.utils.download import Download
+from amme_open_data.utils.serialize import default_serializer
+from amme_open_data.utils.xml import xml_to_json
 
 URL = "https://pgm.mobie.pt/integration/nap/evChargingInfra"
 PATH = "data/raw/portugal_mobie_static.xml"

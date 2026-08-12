@@ -3,9 +3,9 @@ from datetime import datetime, timezone
 
 import yaml
 
-from src.api.container import DataContainer
-from src.api.entities.cpo import CPO
-from src.api.ocpi import (
+from amme_open_data.api.container import DataContainer
+from amme_open_data.api.entities.cpo import CPO
+from amme_open_data.api.ocpi import (
     EVSE,
     Capabilities,
     Connector,
@@ -15,13 +15,13 @@ from src.api.ocpi import (
     Location,
     PowerTypes,
 )
-from src.conversion.datex2 import (
+from amme_open_data.conversion.datex2 import (
     DatexCapabilities,
     DatexConnectorFormats,
     DatexConnectorStandards,
     DatexPowerTypes,
 )
-from src.utils.strings import remove_spaces
+from amme_open_data.utils.strings import remove_spaces
 
 
 def parse_connector(doc) -> Connector:

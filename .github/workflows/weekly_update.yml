@@ -45,7 +45,7 @@ jobs:
         continue-on-error: true
         run: |
           uv run python -m scripts.naps.spain
-          uv run python -m src.utils.git_utils \
+          uv run python -m amme_open_data.utils.git_utils \
             data/naps/spain/locations.json \
             "$BRANCH_NAME" \
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
@@ -55,7 +55,7 @@ jobs:
         continue-on-error: true
         run: |
           uv run python -m scripts.naps.portugal
-          uv run python -m src.utils.git_utils \
+          uv run python -m amme_open_data.utils.git_utils \
             data/naps/portugal/locations.json \
             data/naps/portugal/cpos.json \
             "$BRANCH_NAME" \
@@ -66,7 +66,7 @@ jobs:
         continue-on-error: true
         run: |
           uv run python scripts/custom/mobie_tariffs.py
-          uv run python -m src.utils.git_utils \
+          uv run python -m amme_open_data.utils.git_utils \
             data/naps/portugal/history_tariffs \
             "$BRANCH_NAME" \
             "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" \
@@ -77,7 +77,7 @@ jobs:
     needs:
       - prepare-branch
       - update-data
-    if: always()
+    if: "${{ !cancelled() && needs.prepare-branch.result == 'success' }}"
     runs-on: ubuntu-latest
     permissions:
       contents: write
