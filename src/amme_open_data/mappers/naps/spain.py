@@ -137,10 +137,20 @@ def parse_location(doc) -> Location:
     if isinstance(capabilities, str):
         capabilities = [capabilities]
 
+    parsed_capabilities = []
+    for c in capabilities:
+        try:
+            cap = Capabilities[DatexCapabilities(c).name]
+            if cap not in parsed_capabilities:
+                parsed_capabilities.append(cap)
+        except (ValueError, KeyError):
+            pass
+
     for evse in location.evses:
         evse.capabilities = [
             Capabilities[DatexCapabilities(c).name] for c in capabilities
         ]
+        evse.capabilities = list(parsed_capabilities)
         evse.last_updated = location.last_updated
         for i, connector in enumerate(evse.connectors):
             connector.id = "*".join([evse.evse_id, str(i)])

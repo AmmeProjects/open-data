@@ -123,10 +123,17 @@ def parse_location(doc) -> Location:
     if isinstance(capabilities, str):
         capabilities = [capabilities]
 
+    parsed_capabilities = []
+    for c in capabilities:
+        try:
+            cap = Capabilities[DatexCapabilities(c).name]
+            if cap not in parsed_capabilities:
+                parsed_capabilities.append(cap)
+        except (ValueError, KeyError):
+            pass
+
     for evse in location.evses:
-        evse.capabilities = [
-            Capabilities[DatexCapabilities(c).name] for c in capabilities
-        ]
+        evse.capabilities = list(parsed_capabilities)
         evse.last_updated = location.last_updated
         for i, connector in enumerate(evse.connectors):
             connector.id = "*".join([evse.evse_id, str(i)])
@@ -194,11 +201,21 @@ def extract_cpos(path_json, mapping_path=None) -> list[CPO]:
             continue
 
         # Infer external operator ID (for CPO register)
-        evses = doc["ns6:energyInfrastructureStation"]["ns6:refillPoint"]
+        evses = doc["ns6:energyInfrastructureStation"].get("ns6:refillPoint", [])
         if not isinstance(evses, list):
             evses = [evses]
-        evse_id = evses[0]["ns4:externalIdentifier"]
-        operator_id_external = evse_id.replace("-", "*").split("*")[1]
+        if not evses:
+            continue
+        evse_id = next(
+            (
+                evse["ns4:externalIdentifier"]
+                for evse in evses
+                if "ns4:externalIdentifier" in evse
+            ),
+            evses[0].get("@id", ""),
+        )
+        parts = evse_id.replace("-", "*").split("*")
+        operator_id_external = parts[1] if len(parts) > 1 else operator_id
 
         # Determine the name: check mapping first
         mapped_cpo = cpo_mapping.get(operator_id, {})
@@ -234,10 +251,14 @@ def extract_cpos(path_json, mapping_path=None) -> list[CPO]:
                 telephone = contact.get("ns4:telephoneNumber")
 
         # --- ENRICHMENT ---
-        # Get display name
+        # Get display name and parent_id
         display_name = mapped_cpo.get("display_name")
         parent_id = mapped_cpo.get("parent_id")
-
+        vat_id = mapped_cpo.get("vat_id") or vat_id
+        if vat_id is not None:
+            vat_id = str(vat_id)
+        website = mapped_cpo.get("website") or website
+        telephone = mapped_cpo.get("telephone") or telephone
         # --- END OF ENRICHMENT ---
 
         cpos[operator_id] = CPO(

@@ -15,6 +15,7 @@ class Capabilities(Enum):
     DEBIT_CARD_PAYABLE = auto()
     REMOTE_START_STOP_CAPABLE = auto()
     PED_TERMINAL = auto()
+    ADHOC_WEBSITE = auto()  # extended
 
 
 class ConnectorStandards(Enum):

@@ -16,6 +16,12 @@ class DatexCapabilities(str, Enum):
     REMOTE_START_STOP_CAPABLE = "apps"
     PED_TERMINAL = "pinpad"
 
+    @classmethod
+    def _missing_(cls, value):
+        if value == "website":
+            return cls.REMOTE_START_STOP_CAPABLE
+        return super()._missing_(value)
+
 
 class DatexConnectorStandards(str, Enum):
     IEC_62196_T2_COMBO = "iec62196T2COMBO"

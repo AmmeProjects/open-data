@@ -1,194 +1,290 @@
 cpos:
   - id: ACCI
     display_name: "Acciona"
+    vat_id: "517229765"
   - id: ALFA
     display_name: "Alfa Energia"
+    vat_id: "514362650"
   - id: ATLA
     display_name: "Atlante"
+    vat_id: "513989536"
   - id: AUCH
     display_name: "Auchan"
+    vat_id: "503003808"
   - id: BELM
     display_name: "Blk Mobility"
+    vat_id: "518083594"
   - id: BINT
     display_name: "Bluint"
+    vat_id: "517398168"
   - id: BLUE
     display_name: "Bluecharge"
+    vat_id: "515096598"
   - id: BRIG
     display_name: "Brightcity"
+    vat_id: "516104659"
   - id: CAPW
     display_name: "Capwatt"
+    vat_id: "508523460"
   - id: CARG
     display_name: "Cargga Inteligente"
+    vat_id: "515146234"
   - id: CEPS
     display_name: "Cepsa"
+    vat_id: "500513295"
   - id: CONTINENTE
     display_name: "Continente Plug&Charge"
     id_ext: "CONTINENTE"
     website: "https://feed.continente.pt/lojas/plug-charge"
     telephone: "+351 210 19 19 19"
-    vat_id: 502011475
+    vat_id: "502011475"
   - id: CEVE
     display_name: "Cooperativa CEVE"
+    vat_id: "500960577"
   - id: CIRC
     display_name: "Circuitos Solutions"
+    vat_id: "507910826"
   - id: CMEL
     display_name: "CME"
+    vat_id: "501369295"
   - id: CONM
     display_name: "ConectaMais"
+    vat_id: "517820358"
   - id: CSCP
     display_name: "Cascais Proxima"
+    vat_id: "504853635"
   - id: DTEI
     display_name: "DTE Instalações"
+    vat_id: "501866116"
   - id: ECOI
     display_name: "Ecoinside"
+    vat_id: "507580745"
   - id: EDPC
     display_name: "EDP Comercial"
+    vat_id: "503504564"
   - id: EMAC
     display_name: "EMACOM"
+    vat_id: "511109741"
   - id: EMEL
     display_name: "EMEL Lisboa"
+    vat_id: "503311332"
   - id: EMOB
     display_name: "Emobtec"
+    vat_id: "514340711"
   - id: ENBL
     display_name: "Enable Mobility"
+    vat_id: "518306240"
   - id: ENER
     display_name: "Enercom"
+    vat_id: "510155642"
   - id: EPOC
     display_name: "EPOCH"
+    vat_id: "504612069"
   - id: EVAE
     display_name: "EVAZ Energy"
+    vat_id: "518378462"
   - id: EVCE
     display_name: "EVCE Power"
+    vat_id: "514385472"
   - id: EVGR
     display_name: "Green Evolut"
+    vat_id: "516067885"
   - id: EVIO
     display_name: "EVIO"
+    vat_id: "515681890"
   - id: EVPW
     display_name: "EVpower"
+    vat_id: "514044110"
   - id: EZC3
     display_name: "EZ-CHARG3"
+    vat_id: "516550942"
   - id: EZUR
     display_name: "Ezu Energia"
+    vat_id: "513983511"
   - id: FACT
     display_name: "FactorENERGIA"
+    vat_id: "266666666"
   - id: FCTO
     display_name: "Iberdrola | bp pulse"
+    vat_id: "517696010"
   - id: FRIO
     display_name: "Distrifrio Supermercados"
+    vat_id: "504131249"
   - id: FRTR
     display_name: "FRONTROW"
+    vat_id: "513403760"
   - id: GASF
     display_name: "Gasfomento"
+    vat_id: "503460656"
   - id: GENJ
     display_name: "Generation Journey"
+    vat_id: "515085642"
   - id: GLPG
     display_name: "Galp"
+    vat_id: "999999999"
   - id: GLPP
     display_name: "Galp"
+    vat_id: "504723456"
   - id: GOLD
     display_name: "Gold Energy"
+    vat_id: "507857542"
   - id: GRCA
     display_name: "EVAZ Energy"
+    vat_id: "509976719"
   - id: GREE
     display_name: "Green Charge"
+    vat_id: "513822445"
   - id: HELX
     display_name: "Helexia"
+    vat_id: "513932704"
   - id: HEXA
     display_name: "Hexagonal Ocean"
+    vat_id: "516205331"
   - id: HIGH
     display_name: "High Green Power"
+    vat_id: "514377119"
   - id: HORZ
     display_name: "Powerdot"
+    vat_id: "514790342"
   - id: IBRD
     display_name: "Iberdrola"
+    vat_id: "502124083"
   - id: IHOM
     display_name: "iHome"
+    vat_id: "507890949"
   - id: IMAG
     display_name: "Image4all"
+    vat_id: "506289737"
   - id: INTV
     display_name: "Instavolt"
+    vat_id: "517045320"
   - id: INVP
     display_name: "Intervilapraia"
+    vat_id: "515307840"
   - id: IONY
     display_name: "Ionity"
+    vat_id: "980620899"
   - id: JHOR
     display_name: "JH Ornelas"
+    vat_id: "512000956"
   - id: KLCS
     display_name: "Kilometer Low Cost"
+    vat_id: "517213575"
   - id: KPMS
     display_name: "KPM Engenharia"
+    vat_id: "515662607"
   - id: LOGI
     display_name: "uCharge"
+    vat_id: "514645024"
   - id: LOUL
     display_name: "Loulé Concelho Global"
+    vat_id: "505493870"
   - id: LUSI
     display_name: "Lusiada Energia"
+    vat_id: "513816666"
   - id: MAKS
     display_name: "Maksu"
+    vat_id: "510711464"
   - id: MEOE
     display_name: "MEO Energia"
+    vat_id: "506743357"
   - id: MLTR
     display_name: "Mobiletric"
+    vat_id: "999999999"
   - id: MOBA
     display_name: "MOBI A"
+    vat_id: "514591110"
   - id: MOBI
     display_name: "MOBI.E"
+    vat_id: "509767606"
     parent_id: "MOBIE"
   - id: MOON
     display_name: "Moon"
+    vat_id: "500301522"
   - id: MOTA
     display_name: "Mota-Engil Renewing"
+    vat_id: "506805123"
   - id: NEUR
     display_name: "Neureifen"
+    vat_id: "516400991"
   - id: NRGS
     display_name: "Sunenergy"
+    vat_id: "509220401"
   - id: PACO
     display_name: "Pacorp"
+    vat_id: "513253734"
   - id: PARI
     display_name: "Parinox"
+    vat_id: "505127334"
   - id: PLUG
     display_name: "e-Plug"
+    vat_id: "515621820"
   - id: PRIO
     display_name: "Prio.E"
+    vat_id: "509299652"
   - id: PROP
     display_name: "Propel"
+    vat_id: "500223840"
   - id: PTER
     display_name: "Petrotermica"
+    vat_id: "500981680"
   - id: REMO
     display_name: "Mota-Engil Remo"
+    vat_id: "518623785"
   - id: REPS
     display_name: "Repsol"
+    vat_id: "500246963"
   - id: SARE
     display_name: "Superareosa Supermercados"
+    vat_id: "509296661"
   - id: SCRZ
     display_name: "Município de Santa Cruz"
+    vat_id: "511244681"
   - id: SDBR
     display_name: "SodiBraga Supermercados"
+    vat_id: "506155137"
   - id: SEGM
     display_name: "Segma"
+    vat_id: "512047707"
   - id: SFAF
     display_name: "Superfafe Supermercados"
+    vat_id: "503961159"
   - id: SGMR
     display_name: "Superguimarães Supermercados"
+    vat_id: "509009620"
   - id: SILV
     display_name: "Silver Ridge"
+    vat_id: "516217674"
   - id: SOLX
     display_name: "SOLX"
+    vat_id: "516155164"
   - id: TESLA
     display_name: "Tesla"
     id_ext: "TESLA"
     website: "https://www.tesla.com/"
     telephone: "+351 300 527 476"
-    vat_id: 514063858
+    vat_id: "514063858"
   - id: "TRUE"
     display_name: "WOWPLUG"
+    vat_id: "516296426"
   - id: VEIM
     display_name: "Veimonte"
+    vat_id: "501462473"
   - id: VIAV
     display_name: "Via Verde"
+    vat_id: "518291332"
   - id: VISA
     display_name: "Visacasa"
+    vat_id: "506425800"
   - id: WENE
     display_name: "Wenea"
+    vat_id: "B88392279"
   - id: ZUND
     display_name: "Zunder"
+    vat_id: "A34277434"
+  - id: EPKS
+    display_name: "Telpark"
+    vat_id: "503245160"
+  - id: PQTJ
+    display_name: "Parques Tejo"
+    vat_id: "504719670"

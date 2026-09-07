@@ -1,9 +1,10 @@
-import re
-import requests
+import logging
 import os
 from datetime import datetime
-import logging
-from bs4 import BeautifulSoup  # Added for robust HTML parsing
+from urllib.parse import urljoin
+
+from bs4 import BeautifulSoup
+import requests
 
 # URL of the page containing the download link
 PAGE_URL = "https://www.mobie.pt/pt/redemobie/encontrar-posto"
@@ -13,8 +14,20 @@ os.makedirs(DIR_OUTPUT, exist_ok=True)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 
+session = requests.Session()
+session.headers.update(
+    {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+    }
+)
+
 # Download the HTML page
-response = requests.get(PAGE_URL, timeout=20)
+response = session.get(PAGE_URL, timeout=20)
 response.raise_for_status()
 html = response.text
 
@@ -27,12 +40,10 @@ download_url = download_link_tag["href"]
 
 # If the link is relative, build the absolute URL
 if not download_url.startswith("http"):
-    from urllib.parse import urljoin
-
     download_url = urljoin(PAGE_URL, download_url)
 
 # Download the CSV file
-csv_response = requests.get(download_url)
+csv_response = session.get(download_url, timeout=30)
 csv_response.raise_for_status()
 
 # Save the file with date in the filename

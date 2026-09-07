@@ -17,7 +17,7 @@ def update_locations():
     Download(url=URL, path=PATH).download(force=FORCE_DOWNLOAD)
 
     # Convert to JSON:
-    path_json = xml_to_json(PATH)
+    path_json = xml_to_json(PATH, force_if_exists=FORCE_DOWNLOAD)
 
     # Convert to OPCI format:
     container = parse_nap_data(path_json=path_json)
