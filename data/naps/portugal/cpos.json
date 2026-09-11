@@ -44,6 +44,17 @@
     "parent_id": null
   },
   {
+    "id": "BBGE",
+    "id_ext": "BBG",
+    "name": "Morenergy",
+    "country_code": "PT",
+    "website": null,
+    "vat_id": null,
+    "telephone": "920080985",
+    "display_name": null,
+    "parent_id": null
+  },
+  {
     "id": "BELM",
     "id_ext": "BEL",
     "name": "Blk Mobility, LDA",
@@ -103,7 +114,7 @@
     "id_ext": "CGG",
     "name": "Cargga Inteligente",
     "country_code": "PT",
-    "website": null,
+    "website": "https://www.cargga.com",
     "vat_id": "515146234",
     "telephone": "939853881",
     "display_name": "Cargga Inteligente",
@@ -170,7 +181,7 @@
     "name": "CONTINENTE",
     "country_code": "PT",
     "website": "https://feed.continente.pt/lojas/plug-charge",
-    "vat_id": 502011475,
+    "vat_id": "502011475",
     "telephone": "+351 210 19 19 19",
     "display_name": "Continente Plug&Charge",
     "parent_id": null
@@ -265,13 +276,24 @@
   },
   {
     "id": "ENER",
-    "id_ext": "ENE",
-    "name": "Enercom, Vasconcelos e Almeida engenharia, lda",
+    "id_ext": "",
+    "name": "ENER",
     "country_code": "PT",
-    "website": "http://www.enercom.pt",
+    "website": null,
     "vat_id": "510155642",
-    "telephone": "210173409",
+    "telephone": null,
     "display_name": "Enercom",
+    "parent_id": null
+  },
+  {
+    "id": "EPKS",
+    "id_ext": "EPK",
+    "name": "Telpark",
+    "country_code": "PT",
+    "website": "https://www.telpark.com/es/",
+    "vat_id": "503245160",
+    "telephone": "213847300",
+    "display_name": "Telpark",
     "parent_id": null
   },
   {
@@ -431,7 +453,7 @@
   {
     "id": "GLPG",
     "id_ext": "GLG",
-    "name": "Galp Gest",
+    "name": "Galpgeste",
     "country_code": "PT",
     "website": null,
     "vat_id": "999999999",
@@ -595,12 +617,12 @@
   },
   {
     "id": "JHOR",
-    "id_ext": "JHO",
-    "name": "JH Ornelas",
+    "id_ext": "",
+    "name": "JHOR",
     "country_code": "PT",
     "website": null,
     "vat_id": "512000956",
-    "telephone": "296302900",
+    "telephone": null,
     "display_name": "JH Ornelas",
     "parent_id": null
   },
@@ -717,7 +739,7 @@
   {
     "id": "MOON",
     "id_ext": "MOO",
-    "name": "Siva - Sociedade de Importação de Veículos Automóveis",
+    "name": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)",
     "country_code": "PT",
     "website": "https://moon-power.pt",
     "vat_id": "500301522",
@@ -792,6 +814,17 @@
     "parent_id": null
   },
   {
+    "id": "PQTJ",
+    "id_ext": "PQT",
+    "name": "Parques Tejo, E.M.",
+    "country_code": "PT",
+    "website": null,
+    "vat_id": "504719670",
+    "telephone": "910283939",
+    "display_name": "Parques Tejo",
+    "parent_id": null
+  },
+  {
     "id": "PRIO",
     "id_ext": "PRI",
     "name": "Prio.E Mobility Solutions, Lda",
@@ -838,9 +871,9 @@
   {
     "id": "REPS",
     "id_ext": "REP",
-    "name": "REPSOL Portuguesa Lda",
+    "name": "REPSOL PORTUGUESA LDA",
     "country_code": "PT",
-    "website": null,
+    "website": "https://www.repsol.pt/particulares/",
     "vat_id": "500246963",
     "telephone": "213119000",
     "display_name": "Repsol",
@@ -940,7 +973,7 @@
     "name": "TESLA",
     "country_code": "PT",
     "website": "https://www.tesla.com/",
-    "vat_id": 514063858,
+    "vat_id": "514063858",
     "telephone": "+351 300 527 476",
     "display_name": "Tesla",
     "parent_id": null
@@ -954,6 +987,17 @@
     "vat_id": "516296426",
     "telephone": "211591324",
     "display_name": "WOWPLUG",
+    "parent_id": null
+  },
+  {
+    "id": "TSLA",
+    "id_ext": "TSL",
+    "name": "Tesla",
+    "country_code": "PT",
+    "website": null,
+    "vat_id": null,
+    "telephone": "999999999",
+    "display_name": null,
     "parent_id": null
   },
   {
@@ -1002,7 +1046,7 @@
   },
   {
     "id": "ZUND",
-    "id_ext": "ZND",
+    "id_ext": "ZUN",
     "name": "Grupo Easycharger, SL",
     "country_code": "PT",
     "website": null,
