@@ -11,6 +11,13 @@ cpos:
   - id: AUCH
     display_name: "Auchan"
     vat_id: "503003808"
+  - id: BBGE
+    name: "BBG Engenharia, Unipessoal Lda"
+    display_name: "Morenergy"
+    vat_id: "517503689"
+    id_ext: "BBG"
+    website: "https://www.morenergy.pt/"
+    telephone: "+351 239 810 309"
   - id: BELM
     display_name: "Blk Mobility"
     vat_id: "518083594"
@@ -261,6 +268,12 @@ cpos:
   - id: TESLA
     display_name: "Tesla"
     id_ext: "TESLA"
+    website: "https://www.tesla.com/"
+    telephone: "+351 300 527 476"
+    vat_id: "514063858"
+  - id: TSLA
+    display_name: "Tesla"
+    id_ext: "TSL"
     website: "https://www.tesla.com/"
     telephone: "+351 300 527 476"
     vat_id: "514063858"

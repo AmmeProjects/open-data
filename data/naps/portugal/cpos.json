@@ -48,10 +48,10 @@
     "id_ext": "BBG",
     "name": "Morenergy",
     "country_code": "PT",
-    "website": null,
-    "vat_id": null,
-    "telephone": "920080985",
-    "display_name": null,
+    "website": "https://www.morenergy.pt/",
+    "vat_id": "517503689",
+    "telephone": "+351239810309\"",
+    "display_name": "Morenergy",
     "parent_id": null
   },
   {
@@ -994,10 +994,10 @@
     "id_ext": "TSL",
     "name": "Tesla",
     "country_code": "PT",
-    "website": null,
-    "vat_id": null,
-    "telephone": "999999999",
-    "display_name": null,
+    "website": "https://www.tesla.com/",
+    "vat_id": "514063858",
+    "telephone": "+351300527476",
+    "display_name": "Tesla",
     "parent_id": null
   },
   {
