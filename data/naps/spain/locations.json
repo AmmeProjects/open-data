@@ -656862,59 +656862,6 @@
     {
       "country_code": "es",
       "party_id": "CRF",
-      "id": "2025000342",
-      "publish": true,
-      "name": "CARREFOUR VALLECAS",
-      "address": "AVDA DE LAS SUERTES S/N",
-      "city": "Madrid",
-      "postal_code": "28051",
-      "state": "Madrid",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 40.36928,
-        "longitude": -3.6015737
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049127PR00001436",
-          "evse_id": "ES*CRF*EVALLECAS",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EVALLECAS*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:40:12"
-            },
-            {
-              "id": "ES*CRF*EVALLECAS*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:40:12"
-            }
-          ],
-          "last_updated": "2025-09-12T11:40:12"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-12T11:40:12"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
       "id": "2025000341",
       "publish": true,
       "name": "CARREFOUR ACTUR",
@@ -657017,59 +656964,6 @@
       "operator": "CENTROS COMERCIALES CARREFOUR SA",
       "opening_times": null,
       "last_updated": "2025-09-12T11:40:31"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "2025000371",
-      "publish": true,
-      "name": "CARREFOUR ALGECIRAS",
-      "address": "CTRA  N-340, PK 106.25",
-      "city": "Algeciras",
-      "postal_code": "11204",
-      "state": "Cádiz",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 36.142826,
-        "longitude": -5.462257
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049164PR00001487",
-          "evse_id": "ES*CRF*EALGECIRAS",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EALGECIRAS*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:46:58"
-            },
-            {
-              "id": "ES*CRF*EALGECIRAS*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:46:58"
-            }
-          ],
-          "last_updated": "2025-09-12T11:46:58"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-12T11:46:58"
     },
     {
       "country_code": "es",
@@ -657233,59 +657127,6 @@
     {
       "country_code": "es",
       "party_id": "CRF",
-      "id": "2025000364",
-      "publish": true,
-      "name": "CARREFOUR BADAJOZ VALVERDE",
-      "address": "Ctra. Valverde, km. 1",
-      "city": "Badajoz",
-      "postal_code": "6010",
-      "state": "Badajoz",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 38.861526,
-        "longitude": -6.971206
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049157PR00001480",
-          "evse_id": "ES*CRF*EBDJZVALVERDE",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EBDJZVALVERDE*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:48:35"
-            },
-            {
-              "id": "ES*CRF*EBDJZVALVERDE*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:48:35"
-            }
-          ],
-          "last_updated": "2025-09-12T11:48:35"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-12T11:48:35"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
       "id": "2025000359",
       "publish": true,
       "name": "CARREFOUR TARRAGONA",
@@ -657335,59 +657176,6 @@
       "operator": "CENTROS COMERCIALES CARREFOUR SA",
       "opening_times": null,
       "last_updated": "2025-09-12T11:48:43"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "2025000360",
-      "publish": true,
-      "name": "CARREFOUR CACERES",
-      "address": "Av. de las Arenas, 51",
-      "city": "Cáceres",
-      "postal_code": "10005",
-      "state": "Cáceres",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 39.46809,
-        "longitude": -6.39661
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049155PR00001476",
-          "evse_id": "ES*CRF*ECACERES",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*ECACERES*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:49:06"
-            },
-            {
-              "id": "ES*CRF*ECACERES*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T11:49:06"
-            }
-          ],
-          "last_updated": "2025-09-12T11:49:06"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-12T11:49:06"
     },
     {
       "country_code": "es",
@@ -657604,112 +657392,6 @@
     {
       "country_code": "es",
       "party_id": "CRF",
-      "id": "2025000386",
-      "publish": true,
-      "name": "CARREFOUR SESTAO",
-      "address": "POLIGONO IBARZAHARRA. CTRA BARAKALDO -  VALLE DE TRAPAGA S/N",
-      "city": "Sestao",
-      "postal_code": "48910",
-      "state": "Bizkaia",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 43.30017,
-        "longitude": -3.004592
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049235PR00001535",
-          "evse_id": "ES*CRF*ESESTAO",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*ESESTAO*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T14:55:31"
-            },
-            {
-              "id": "ES*CRF*ESESTAO*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T14:55:31"
-            }
-          ],
-          "last_updated": "2025-09-12T14:55:31"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": "Martes (07:30 - 21:30) Miercoles (07:30 - 21:30) Viernes (07:30 - 21:30) Lunes (07:30 - 21:30) Domingo (09:00 - 15:00) Sabado (07:30 - 21:30) Jueves (07:30 - 21:30)",
-      "last_updated": "2025-09-12T14:55:31"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "2025000385",
-      "publish": true,
-      "name": "CARREFOUR ZARAICHE",
-      "address": "Av. Miguel de Cervantes, 106",
-      "city": "Murcia",
-      "postal_code": "30009",
-      "state": "Murcia",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 38.000305,
-        "longitude": -1.1431254
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049234PR00001534",
-          "evse_id": "ES*CRF*EZARAICHE",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EZARAICHE*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T14:55:41"
-            },
-            {
-              "id": "ES*CRF*EZARAICHE*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T14:55:41"
-            }
-          ],
-          "last_updated": "2025-09-12T14:55:41"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-12T14:55:41"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
       "id": "2025000383",
       "publish": true,
       "name": "CARREFOUR OIARTZUN",
@@ -657869,59 +657551,6 @@
     {
       "country_code": "es",
       "party_id": "CRF",
-      "id": "2025000372",
-      "publish": true,
-      "name": "CARREFOUR JAEN",
-      "address": "Carretera Bailén-Motril, PK 37.500",
-      "city": "Jaén",
-      "postal_code": "23009",
-      "state": "Jaén",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 37.78258,
-        "longitude": -3.7687507
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049206PR00001488",
-          "evse_id": "ES*CRF*EJAEN",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EJAEN*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T14:56:25"
-            },
-            {
-              "id": "ES*CRF*EJAEN*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-12T14:56:25"
-            }
-          ],
-          "last_updated": "2025-09-12T14:56:25"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-12T14:56:25"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
       "id": "W5UVUI8KPSPTFNAMGTLU",
       "publish": true,
       "name": "CARREFOUR ALCALA DE HENARES",
@@ -658077,249 +657706,6 @@
       "operator": "CENTROS COMERCIALES CARREFOUR SA",
       "opening_times": null,
       "last_updated": "2025-09-15T11:42:25"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "IZ7K89Y7ZJRO9JIE4IBK",
-      "publish": true,
-      "name": "CARREFOUR ALMERIA",
-      "address": "Av. del Mediterráneo, 244",
-      "city": "Almería",
-      "postal_code": "4006",
-      "state": "Almería",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 36.842224,
-        "longitude": -2.4430947
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "PH3DQOF5RXGU1ICKHBQCCHEYG9N",
-          "evse_id": "ES*CRF*EALMERIA1",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EALMERIA1*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 150000,
-              "last_updated": "2025-09-15T11:42:43"
-            },
-            {
-              "id": "ES*CRF*EALMERIA1*1",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 150000,
-              "last_updated": "2025-09-15T11:42:43"
-            }
-          ],
-          "last_updated": "2025-09-15T11:42:43"
-        },
-        {
-          "uid": "KTA2J6BIO20OFFOHL8C9HRAS90R",
-          "evse_id": "ES*CRF*EALMERIA2",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EALMERIA2*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:42:43"
-            },
-            {
-              "id": "ES*CRF*EALMERIA2*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:42:43"
-            }
-          ],
-          "last_updated": "2025-09-15T11:42:43"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-15T11:42:43"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "M8LFEAPADSPJG4J1XFXG",
-      "publish": true,
-      "name": "CARREFOUR GRANADA",
-      "address": "CTRA DE ARMILLA  S/N",
-      "city": "Granada",
-      "postal_code": "18006",
-      "state": "Granada",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 37.15521,
-        "longitude": -3.609714
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "7PRTZHAGDRJJXPAVLS9EULRWWYE",
-          "evse_id": "ES*CRF*EGRANDA",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EGRANDA*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:43:54"
-            },
-            {
-              "id": "ES*CRF*EGRANDA*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:43:54"
-            }
-          ],
-          "last_updated": "2025-09-15T11:43:54"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-15T11:43:54"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "E7AVEK7YQQBZQBQZFN1I",
-      "publish": true,
-      "name": "CARREFOUR LA CALZADA",
-      "address": "CALLE MAESTRO MORAN S/N",
-      "city": "Gijón",
-      "postal_code": "33213",
-      "state": "Asturias",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 43.536125,
-        "longitude": -5.694045
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "LMET9UHSDZ656XYTF9FCEMBMY0T",
-          "evse_id": "ES*CRF*ELACALZADA",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*ELACALZADA*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:44:04"
-            },
-            {
-              "id": "ES*CRF*ELACALZADA*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:44:04"
-            }
-          ],
-          "last_updated": "2025-09-15T11:44:04"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-15T11:44:04"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "RE7YCG6I4WKZBNSJGCH2",
-      "publish": true,
-      "name": "CARREFOUR  AZABACHE",
-      "address": "N-640, PK 451",
-      "city": "Siero",
-      "postal_code": "33420",
-      "state": "Asturias",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 43.414654,
-        "longitude": -5.796494
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "HWZC13FIBETX6OMNLY4PANQBNGR",
-          "evse_id": "ES*CRF*EAZABACHE",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EAZABACHE*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:44:13"
-            },
-            {
-              "id": "ES*CRF*EAZABACHE*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:44:13"
-            }
-          ],
-          "last_updated": "2025-09-15T11:44:13"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-15T11:44:13"
     },
     {
       "country_code": "es",
@@ -658758,112 +658144,6 @@
     {
       "country_code": "es",
       "party_id": "CRF",
-      "id": "2025000367",
-      "publish": true,
-      "name": "CARREFOUR EL PASEO",
-      "address": "CTRA NACIONA IV, PK 653",
-      "city": "Puerto de Santa María, El",
-      "postal_code": "11500",
-      "state": "Cádiz",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 36.61496,
-        "longitude": -6.2119613
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049160PR00001483",
-          "evse_id": "ES*CRF*EELPASEO",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EELPASEO*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:45:31"
-            },
-            {
-              "id": "ES*CRF*EELPASEO*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:45:31"
-            }
-          ],
-          "last_updated": "2025-09-15T11:45:31"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-15T11:45:31"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "2025000369",
-      "publish": true,
-      "name": "CARREFOUR JEREZ SUR",
-      "address": "CTRA NACIONAL-IV, 641",
-      "city": "Jerez de la Frontera",
-      "postal_code": "11408",
-      "state": "Cádiz",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 36.67331,
-        "longitude": -6.1510887
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049162PR00001485",
-          "evse_id": "ES*CRF*EJEREZSUR",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*EJEREZSUR*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:45:39"
-            },
-            {
-              "id": "ES*CRF*EJEREZSUR*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:45:39"
-            }
-          ],
-          "last_updated": "2025-09-15T11:45:39"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-15T11:45:39"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
       "id": "2025000373",
       "publish": true,
       "name": "CARREFOUR SAN PABLO",
@@ -658913,59 +658193,6 @@
       "operator": "CENTROS COMERCIALES CARREFOUR SA",
       "opening_times": null,
       "last_updated": "2025-09-15T11:45:48"
-    },
-    {
-      "country_code": "es",
-      "party_id": "CRF",
-      "id": "2025000378",
-      "publish": true,
-      "name": "CARREFOUR SAN JUAN DE ALICANTE",
-      "address": "C. José García Sellés, 2",
-      "city": "Sant Joan d'Alacant",
-      "postal_code": "3550",
-      "state": "Alicante/Alacant",
-      "country": "ESP",
-      "coordinates": {
-        "latitude": 38.40799,
-        "longitude": -0.4243015
-      },
-      "parking_type": "PARKING_LOT",
-      "evses": [
-        {
-          "uid": "COD20250000049214PR00001496",
-          "evse_id": "ES*CRF*ESANJUANDEALICANTE",
-          "status": "UNKNOWN",
-          "capabilities": [
-            "CREDIT_CARD_PAYABLE"
-          ],
-          "connectors": [
-            {
-              "id": "ES*CRF*ESANJUANDEALICANTE*0",
-              "standard": "IEC_62196_T2_COMBO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:45:57"
-            },
-            {
-              "id": "ES*CRF*ESANJUANDEALICANTE*1",
-              "standard": "CHADEMO",
-              "format": "CABLE",
-              "power_type": "DC",
-              "max_voltage": null,
-              "max_amperage": null,
-              "max_electric_power": 50000,
-              "last_updated": "2025-09-15T11:45:57"
-            }
-          ],
-          "last_updated": "2025-09-15T11:45:57"
-        }
-      ],
-      "operator": "CENTROS COMERCIALES CARREFOUR SA",
-      "opening_times": null,
-      "last_updated": "2025-09-15T11:45:57"
     },
     {
       "country_code": "es",
@@ -1123374,7 +1122601,2898 @@
       "operator": "Restaurante Izki Jatetxea SLU",
       "opening_times": null,
       "last_updated": "2026-10-01T12:21:09"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "KHGPNELRX4QDLL0GNVHR",
+      "publish": true,
+      "name": "Plans de Bonvilar 6 - GEV",
+      "address": "Plans de Bonvilar 6",
+      "city": "Terrassa",
+      "postal_code": "8227",
+      "state": "Barcelona",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 41.55661,
+        "longitude": 2.0622292
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "6PKYKNLDPHAHKLA9CBAZY9HTA9K",
+          "evse_id": "ES*AEQ*ESAEQEHX59F11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEHX59F11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:06:46"
+            }
+          ],
+          "last_updated": "2026-10-15T08:06:46"
+        },
+        {
+          "uid": "XQYSWIVSY4Q563D7YK2XLTB67TK",
+          "evse_id": "ES*AEQ*ESAEQEHX59F12",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEHX59F12*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:06:46"
+            }
+          ],
+          "last_updated": "2026-10-15T08:06:46"
+        },
+        {
+          "uid": "4IB4JGTISLVL6YXIEP057ANUEKI",
+          "evse_id": "ES*AEQ*ESAEQEHX59F21",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEHX59F21*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:06:46"
+            }
+          ],
+          "last_updated": "2026-10-15T08:06:46"
+        },
+        {
+          "uid": "LWNSE2JDNS4DPATVEJ7HHUMOBRD",
+          "evse_id": "ES*AEQ*ESAEQEHX59F22",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEHX59F22*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:06:46"
+            }
+          ],
+          "last_updated": "2026-10-15T08:06:46"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:06:46"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "8AL9NOPMJNMAKY1WJPW4",
+      "publish": true,
+      "name": "Av. Adolfo Suárez 8 - AJG",
+      "address": "Av Adolfo Suarez 8,",
+      "city": "Alhaurín el Grande",
+      "postal_code": "29120",
+      "state": "Málaga",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 36.64593,
+        "longitude": -4.683341
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "ZP5BJKWGSZYLFM7VUNRWETAJVVP",
+          "evse_id": "ES*AEQ*ESAEQEHX73M11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEHX73M11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:07:12"
+            }
+          ],
+          "last_updated": "2026-10-15T08:07:12"
+        },
+        {
+          "uid": "NHLIQV2WLVWY3IAKLIUHBDO6GQF",
+          "evse_id": "ES*AEQ*ESAEQEHX73M21",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEHX73M21*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:07:12"
+            }
+          ],
+          "last_updated": "2026-10-15T08:07:12"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:07:12"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "LXG2LHT75WFS83L0OTJX",
+      "publish": true,
+      "name": "Plaza de las Delicias 10 - LQR",
+      "address": "Plaza de las Delicias 10",
+      "city": "Carolina, La",
+      "postal_code": "23200",
+      "state": "Jaén",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 38.276665,
+        "longitude": -3.610947
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "HIMRZBBU8J7YAMOMTOOXCDYEB87",
+          "evse_id": "ES*AEQ*ESAEQEJG2JR11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEJG2JR11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:07:51"
+            }
+          ],
+          "last_updated": "2026-10-15T08:07:51"
+        },
+        {
+          "uid": "SQWT1BCKFZO49QWW2BU230YWLAF",
+          "evse_id": "ES*AEQ*ESAEQEJG2JR12",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEJG2JR12*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:07:51"
+            }
+          ],
+          "last_updated": "2026-10-15T08:07:51"
+        },
+        {
+          "uid": "X7KEDRV8JO6RKE58M3S0L4DAMFH",
+          "evse_id": "ES*AEQ*ESAEQEJG2JR21",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEJG2JR21*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:07:51"
+            }
+          ],
+          "last_updated": "2026-10-15T08:07:51"
+        },
+        {
+          "uid": "NPHF8R8FM8JVNJHDVTA1HUU966U",
+          "evse_id": "ES*AEQ*ESAEQEJG2JR22",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEJG2JR22*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:07:51"
+            }
+          ],
+          "last_updated": "2026-10-15T08:07:51"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:07:51"
+    },
+    {
+      "country_code": "es",
+      "party_id": "PRR",
+      "id": "LHBLURT84W5A7DNQPT1T",
+      "publish": true,
+      "name": "SHELL VALDEPEÑAS",
+      "address": "CR N-IV, KM,192",
+      "city": "Valdepeñas",
+      "postal_code": "13300",
+      "state": "Ciudad Real",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 38.842144,
+        "longitude": -3.3925002
+      },
+      "parking_type": "EX_OTHER",
+      "evses": [
+        {
+          "uid": "G2GKJPE1Z8TZHRWXZTX5ZFBVBYS",
+          "evse_id": "ES*PRR*EES42200000101",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "PED_TERMINAL",
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*PRR*EES42200000101*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 950,
+              "max_amperage": 200,
+              "max_electric_power": 150000,
+              "last_updated": "2026-10-15T08:08:24"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:24"
+        },
+        {
+          "uid": "MJHMLZSOBRLL6GIICERI60TBQEF",
+          "evse_id": "ES*PRR*EES42200000102",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "PED_TERMINAL",
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*PRR*EES42200000102*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 950,
+              "max_amperage": 200,
+              "max_electric_power": 150000,
+              "last_updated": "2026-10-15T08:08:24"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:24"
+        }
+      ],
+      "operator": "Prio Recharge Sl.",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:08:24"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "FYJEDNLQOLJNN6K0HOUO",
+      "publish": true,
+      "name": "Cami del Plans de Can Bonvilar 17",
+      "address": "Cami del Plans de Can Bonvilar 17 - GEP",
+      "city": "Terrassa",
+      "postal_code": "8227",
+      "state": "Barcelona",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 41.57132,
+        "longitude": 2.0569613
+      },
+      "parking_type": null,
+      "evses": [
+        {
+          "uid": "9HZI8VNQDNHK9Y0437EPKBNKPCH",
+          "evse_id": "ES*AEQ*ESAEQEG8G4R11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEG8G4R11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:08:45"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:45"
+        },
+        {
+          "uid": "FSPM7O6GYKEI5BQLRYGEMIWHXRS",
+          "evse_id": "ES*AEQ*ESAEQEG8G4R12",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEG8G4R12*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:08:45"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:45"
+        },
+        {
+          "uid": "QA6PALT06HZI4YTRL3QFRHPZJNY",
+          "evse_id": "ES*AEQ*ESAEQEG8G4R21",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEG8G4R21*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:08:45"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:45"
+        },
+        {
+          "uid": "TMD1ZHEFLJEHEOKB3X2QHP08MLF",
+          "evse_id": "ES*AEQ*ESAEQEG8G4R22",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEG8G4R22*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:08:45"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:45"
+        },
+        {
+          "uid": "UFAOJTFSTONBWTYDGYY9DXMV4QX",
+          "evse_id": "ES*AEQ*ESAEQEG8G4R31",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEG8G4R31*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:08:45"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:45"
+        },
+        {
+          "uid": "4NMZO4WKXUCMVFE2P8SZNU6UZZ4",
+          "evse_id": "ES*AEQ*ESAEQEG8G4R32",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEG8G4R32*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:08:45"
+            }
+          ],
+          "last_updated": "2026-10-15T08:08:45"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:08:45"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "AEL7TYSGTCPHZTZUDLS4",
+      "publish": true,
+      "name": "Calle de los Perlerines 5 - MGE",
+      "address": "Calle de los Perlerines 5",
+      "city": "Miguelturra",
+      "postal_code": "13170",
+      "state": "Ciudad Real",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 38.9662,
+        "longitude": -3.8899596
+      },
+      "parking_type": null,
+      "evses": [
+        {
+          "uid": "4QNEM3G0QQ631W6ODY07JXQKQSN",
+          "evse_id": "ES*AEQ*ESAEQEGJR7J11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEGJR7J11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:09:07"
+            }
+          ],
+          "last_updated": "2026-10-15T08:09:07"
+        },
+        {
+          "uid": "GV0XBUQ5XUP4HZURS9TIK5I4PEZ",
+          "evse_id": "ES*AEQ*ESAEQEGJR7J12",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEGJR7J12*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:09:07"
+            }
+          ],
+          "last_updated": "2026-10-15T08:09:07"
+        },
+        {
+          "uid": "AG4CWWJIDDUS4OCHPIGVQ7QMMEG",
+          "evse_id": "ES*AEQ*ESAEQEGJR7J21",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEGJR7J21*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:09:07"
+            }
+          ],
+          "last_updated": "2026-10-15T08:09:07"
+        },
+        {
+          "uid": "JNMJZ6LWKPVPXUOUGXVCMPLAQLQ",
+          "evse_id": "ES*AEQ*ESAEQEGJR7J22",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEGJR7J22*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:09:07"
+            }
+          ],
+          "last_updated": "2026-10-15T08:09:07"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:09:07"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "JC2P0P1GQMRL6PB0U7SW",
+      "publish": true,
+      "name": "Site P.º de Belén, 11 - UVA",
+      "address": "Site P.º de Belén 11",
+      "city": "Valladolid",
+      "postal_code": "47011",
+      "state": "Valladolid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 41.66198,
+        "longitude": -4.7066846
+      },
+      "parking_type": "PARKING_GARAGE",
+      "evses": [
+        {
+          "uid": "URUYFG5LCJKILFRQ4GECAWVGLLP",
+          "evse_id": "ES*AEQ*ESAEQEXGF8W11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEXGF8W11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:30"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:30"
+        },
+        {
+          "uid": "SBMF2DEX3LWLBL9EBT9LE9YSR7N",
+          "evse_id": "ES*AEQ*ESAEQEXGF8W12",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEXGF8W12*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:30"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:30"
+        },
+        {
+          "uid": "DMGIH6G1UTW7XRJV6Q0GHDJDH5F",
+          "evse_id": "ES*AEQ*ESAEQEXGF8W21",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEXGF8W21*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:30"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:30"
+        },
+        {
+          "uid": "T4BIUAPZVKQPER3NMZ38YYLWSOD",
+          "evse_id": "ES*AEQ*ESAEQEXGF8W22",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEXGF8W22*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:30"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:30"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:10:30"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "YTR2DPWBRWIORQIAOQAQ",
+      "publish": true,
+      "name": "Plaza Teatro - NVC",
+      "address": "Plaza Teatro",
+      "city": "Navalcarnero",
+      "postal_code": "28600",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.289337,
+        "longitude": -4.0134363
+      },
+      "parking_type": "PARKING_GARAGE",
+      "evses": [
+        {
+          "uid": "SMD6WJAE6GGHBRLPIYPJA4M2MSF",
+          "evse_id": "ES*AEQ*ESAEQE3H86J11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQE3H86J11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:44"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:44"
+        },
+        {
+          "uid": "GXEHSYJXBZFI0S98DUGGTKIFRD7",
+          "evse_id": "ES*AEQ*ESAEQE3H86J12",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "CONTACTLESS_CARD_SUPPORT",
+            "RFID_READER",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQE3H86J12*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:44"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:44"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:10:44"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "ZRJJW1ZPL2JP8ZMXQRNV",
+      "publish": true,
+      "name": "Camino de Villaviciosa - NVC",
+      "address": "Camino de Villaviciosa",
+      "city": "Navalcarnero",
+      "postal_code": "28600",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.28981,
+        "longitude": -4.001086
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "U7FMCPI0V3VZM5XRJNPQA32DLJF",
+          "evse_id": "ES*AEQ*ESAEQEGJ7CJ11",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEGJ7CJ11*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:55"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:55"
+        },
+        {
+          "uid": "H8E8JREEG7WYFNN7J0CFMBIR7TZ",
+          "evse_id": "ES*AEQ*ESAEQEGJ7CJ12",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQEGJ7CJ12*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:10:55"
+            }
+          ],
+          "last_updated": "2026-10-15T08:10:55"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:10:55"
+    },
+    {
+      "country_code": "es",
+      "party_id": "AEQ",
+      "id": "EFDADOQUDLZ9BTT5WW4H",
+      "publish": true,
+      "name": "Carretera Madrid Cadiz 16 - VIO",
+      "address": "Carretera Madrid Cadiz 16",
+      "city": "Villa del Río",
+      "postal_code": "14640",
+      "state": "Córdoba",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 37.98322,
+        "longitude": -4.28791
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "E4OGOCYRWZTI2VDSQDPMQBVXJWW",
+          "evse_id": "ES*AEQ*ESAEQE2MCR211",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQE2MCR211*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:11:08"
+            }
+          ],
+          "last_updated": "2026-10-15T08:11:08"
+        },
+        {
+          "uid": "KLMILYUTL8FLSMQIMVSWUOLZSFO",
+          "evse_id": "ES*AEQ*ESAEQE2MCR212",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "DEBIT_CARD_PAYABLE",
+            "RFID_READER",
+            "CONTACTLESS_CARD_SUPPORT",
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*AEQ*ESAEQE2MCR212*0",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:11:08"
+            }
+          ],
+          "last_updated": "2026-10-15T08:11:08"
+        }
+      ],
+      "operator": "QWELLO España SL",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:11:08"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000342",
+      "publish": true,
+      "name": "CARREFOUR VALLECAS",
+      "address": "AVDA DE LAS SUERTES S/N",
+      "city": "Madrid",
+      "postal_code": "28051",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.36928,
+        "longitude": -3.6015737
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049127PR00001436",
+          "evse_id": "ES*CRF*EVALLECAS",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EVALLECAS*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:11:30"
+            },
+            {
+              "id": "ES*CRF*EVALLECAS*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:11:30"
+            },
+            {
+              "id": "ES*CRF*EVALLECAS*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:11:30"
+            }
+          ],
+          "last_updated": "2026-10-15T08:11:30"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:11:30"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "E7AVEK7YQQBZQBQZFN1I",
+      "publish": true,
+      "name": "CARREFOUR LA CALZADA",
+      "address": "CALLE MAESTRO MORAN S/N",
+      "city": "Gijón",
+      "postal_code": "33213",
+      "state": "Asturias",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 43.536125,
+        "longitude": -5.694045
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "LMET9UHSDZ656XYTF9FCEMBMY0T",
+          "evse_id": "ES*CRF*ELACALZADA",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*ELACALZADA*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:11:41"
+            },
+            {
+              "id": "ES*CRF*ELACALZADA*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:11:41"
+            },
+            {
+              "id": "ES*CRF*ELACALZADA*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:11:41"
+            }
+          ],
+          "last_updated": "2026-10-15T08:11:41"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:11:41"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "M8LFEAPADSPJG4J1XFXG",
+      "publish": true,
+      "name": "CARREFOUR GRANADA",
+      "address": "CTRA DE ARMILLA  S/N",
+      "city": "Granada",
+      "postal_code": "18006",
+      "state": "Granada",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 37.15521,
+        "longitude": -3.609714
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "7PRTZHAGDRJJXPAVLS9EULRWWYE",
+          "evse_id": "ES*CRF*EGRANDA",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EGRANDA*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:11:51"
+            },
+            {
+              "id": "ES*CRF*EGRANDA*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:11:51"
+            },
+            {
+              "id": "ES*CRF*EGRANDA*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:11:51"
+            }
+          ],
+          "last_updated": "2026-10-15T08:11:51"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:11:51"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000385",
+      "publish": true,
+      "name": "CARREFOUR ZARAICHE",
+      "address": "Av. Miguel de Cervantes, 106",
+      "city": "Murcia",
+      "postal_code": "30009",
+      "state": "Murcia",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 38.000305,
+        "longitude": -1.1431254
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049234PR00001534",
+          "evse_id": "ES*CRF*EZARAICHE",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EZARAICHE*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:02"
+            },
+            {
+              "id": "ES*CRF*EZARAICHE*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:02"
+            },
+            {
+              "id": "ES*CRF*EZARAICHE*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:12:02"
+            }
+          ],
+          "last_updated": "2026-10-15T08:12:02"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:12:02"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000386",
+      "publish": true,
+      "name": "CARREFOUR SESTAO",
+      "address": "POLIGONO IBARZAHARRA. CTRA BARAKALDO -  VALLE DE TRAPAGA S/N",
+      "city": "Sestao",
+      "postal_code": "48910",
+      "state": "Bizkaia",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 43.30017,
+        "longitude": -3.004592
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049235PR00001535",
+          "evse_id": "ES*CRF*ESESTAO",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*ESESTAO*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:11"
+            },
+            {
+              "id": "ES*CRF*ESESTAO*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:11"
+            },
+            {
+              "id": "ES*CRF*ESESTAO*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:12:11"
+            }
+          ],
+          "last_updated": "2026-10-15T08:12:11"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": "Miercoles (07:30 - 21:30) Martes (07:30 - 21:30) Jueves (07:30 - 21:30) Viernes (07:30 - 21:30) Sabado (07:30 - 21:30) Lunes (07:30 - 21:30) Domingo (09:00 - 15:00)",
+      "last_updated": "2026-10-15T08:12:11"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000378",
+      "publish": true,
+      "name": "CARREFOUR SAN JUAN DE ALICANTE",
+      "address": "C. José García Sellés, 2",
+      "city": "Sant Joan d'Alacant",
+      "postal_code": "3550",
+      "state": "Alicante/Alacant",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 38.40799,
+        "longitude": -0.4243015
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049214PR00001496",
+          "evse_id": "ES*CRF*ESANJUANDEALICANTE",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*ESANJUANDEALICANTE*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:21"
+            },
+            {
+              "id": "ES*CRF*ESANJUANDEALICANTE*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:21"
+            },
+            {
+              "id": "ES*CRF*ESANJUANDEALICANTE*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:12:21"
+            }
+          ],
+          "last_updated": "2026-10-15T08:12:21"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:12:21"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000372",
+      "publish": true,
+      "name": "CARREFOUR JAEN",
+      "address": "Carretera Bailén-Motril, PK 37.500",
+      "city": "Jaén",
+      "postal_code": "23009",
+      "state": "Jaén",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 37.78258,
+        "longitude": -3.7687507
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049206PR00001488",
+          "evse_id": "ES*CRF*EJAEN",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EJAEN*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:31"
+            },
+            {
+              "id": "ES*CRF*EJAEN*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:31"
+            },
+            {
+              "id": "ES*CRF*EJAEN*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:12:31"
+            }
+          ],
+          "last_updated": "2026-10-15T08:12:31"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:12:31"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000367",
+      "publish": true,
+      "name": "CARREFOUR EL PASEO",
+      "address": "CTRA NACIONA IV, PK 653",
+      "city": "Puerto de Santa María, El",
+      "postal_code": "11500",
+      "state": "Cádiz",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 36.61496,
+        "longitude": -6.2119613
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049160PR00001483",
+          "evse_id": "ES*CRF*EELPASEO",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EELPASEO*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:41"
+            },
+            {
+              "id": "ES*CRF*EELPASEO*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:41"
+            },
+            {
+              "id": "ES*CRF*EELPASEO*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:12:41"
+            }
+          ],
+          "last_updated": "2026-10-15T08:12:41"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:12:41"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000369",
+      "publish": true,
+      "name": "CARREFOUR JEREZ SUR",
+      "address": "CTRA NACIONAL-IV, 641",
+      "city": "Jerez de la Frontera",
+      "postal_code": "11408",
+      "state": "Cádiz",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 36.67331,
+        "longitude": -6.1510887
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049162PR00001485",
+          "evse_id": "ES*CRF*EJEREZSUR",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EJEREZSUR*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:51"
+            },
+            {
+              "id": "ES*CRF*EJEREZSUR*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:12:51"
+            },
+            {
+              "id": "ES*CRF*EJEREZSUR*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:12:51"
+            }
+          ],
+          "last_updated": "2026-10-15T08:12:51"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:12:51"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000360",
+      "publish": true,
+      "name": "CARREFOUR CACERES",
+      "address": "Av. de las Arenas, 51",
+      "city": "Cáceres",
+      "postal_code": "10005",
+      "state": "Cáceres",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 39.46809,
+        "longitude": -6.39661
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049155PR00001476",
+          "evse_id": "ES*CRF*ECACERES",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*ECACERES*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:13:06"
+            },
+            {
+              "id": "ES*CRF*ECACERES*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:13:06"
+            },
+            {
+              "id": "ES*CRF*ECACERES*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:13:06"
+            }
+          ],
+          "last_updated": "2026-10-15T08:13:06"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:13:06"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000364",
+      "publish": true,
+      "name": "CARREFOUR BADAJOZ VALVERDE",
+      "address": "Ctra. Valverde, km. 1",
+      "city": "Badajoz",
+      "postal_code": "6010",
+      "state": "Badajoz",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 38.861526,
+        "longitude": -6.971206
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049157PR00001480",
+          "evse_id": "ES*CRF*EBDJZVALVERDE",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EBDJZVALVERDE*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:13:32"
+            },
+            {
+              "id": "ES*CRF*EBDJZVALVERDE*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:13:32"
+            },
+            {
+              "id": "ES*CRF*EBDJZVALVERDE*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:13:32"
+            }
+          ],
+          "last_updated": "2026-10-15T08:13:32"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:13:32"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "2025000371",
+      "publish": true,
+      "name": "CARREFOUR ALGECIRAS",
+      "address": "CTRA  N-340, PK 106.25",
+      "city": "Algeciras",
+      "postal_code": "11204",
+      "state": "Cádiz",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 36.142826,
+        "longitude": -5.462257
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "COD20250000049164PR00001487",
+          "evse_id": "ES*CRF*EALGECIRAS",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EALGECIRAS*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:13:56"
+            },
+            {
+              "id": "ES*CRF*EALGECIRAS*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:13:56"
+            },
+            {
+              "id": "ES*CRF*EALGECIRAS*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:13:56"
+            }
+          ],
+          "last_updated": "2026-10-15T08:13:56"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:13:56"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "IZ7K89Y7ZJRO9JIE4IBK",
+      "publish": true,
+      "name": "CARREFOUR ALMERIA",
+      "address": "Av. del Mediterráneo, 244",
+      "city": "Almería",
+      "postal_code": "4006",
+      "state": "Almería",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 36.842224,
+        "longitude": -2.4430947
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "PH3DQOF5RXGU1ICKHBQCCHEYG9N",
+          "evse_id": "ES*CRF*EALMERIA1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EALMERIA1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 150000,
+              "last_updated": "2026-10-15T08:14:07"
+            },
+            {
+              "id": "ES*CRF*EALMERIA1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 150000,
+              "last_updated": "2026-10-15T08:14:07"
+            }
+          ],
+          "last_updated": "2026-10-15T08:14:07"
+        },
+        {
+          "uid": "KTA2J6BIO20OFFOHL8C9HRAS90R",
+          "evse_id": "ES*CRF*EALMERIA2",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EALMERIA2*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:14:07"
+            },
+            {
+              "id": "ES*CRF*EALMERIA2*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:14:07"
+            },
+            {
+              "id": "ES*CRF*EALMERIA2*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:14:07"
+            }
+          ],
+          "last_updated": "2026-10-15T08:14:07"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:14:07"
+    },
+    {
+      "country_code": "es",
+      "party_id": "CRF",
+      "id": "RE7YCG6I4WKZBNSJGCH2",
+      "publish": true,
+      "name": "CARREFOUR  AZABACHE",
+      "address": "N-640, PK 451",
+      "city": "Siero",
+      "postal_code": "33420",
+      "state": "Asturias",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 43.414654,
+        "longitude": -5.796494
+      },
+      "parking_type": "PARKING_LOT",
+      "evses": [
+        {
+          "uid": "HWZC13FIBETX6OMNLY4PANQBNGR",
+          "evse_id": "ES*CRF*EAZABACHE",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*CRF*EAZABACHE*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:14:17"
+            },
+            {
+              "id": "ES*CRF*EAZABACHE*1",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 50000,
+              "last_updated": "2026-10-15T08:14:17"
+            },
+            {
+              "id": "ES*CRF*EAZABACHE*2",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": null,
+              "max_amperage": null,
+              "max_electric_power": 22000,
+              "last_updated": "2026-10-15T08:14:17"
+            }
+          ],
+          "last_updated": "2026-10-15T08:14:17"
+        }
+      ],
+      "operator": "CENTROS COMERCIALES CARREFOUR SA",
+      "opening_times": null,
+      "last_updated": "2026-10-15T08:14:17"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "B6WX8JFETZGXEDEMGKK4",
+      "publish": true,
+      "name": "Parking Orense. Madrid - Parkia",
+      "address": "Calle De Orense 52",
+      "city": "Madrid",
+      "postal_code": "28020",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.45804,
+        "longitude": -3.694169
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "DGR6YYYEJ6NUS43R7W5L7JXSR4Y",
+          "evse_id": "ES*WEN*EPARKIAORENSE011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAORENSE011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "G6JFRSZOFLCGAI1QO0YGTS08HWI",
+          "evse_id": "ES*WEN*EPARKIAORENSE021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAORENSE021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "HCMAEQYZY0PTXUXFZHVU",
+      "publish": true,
+      "name": "Parking Plaza de España. Écija - Parkia",
+      "address": "Pl. España",
+      "city": "Écija",
+      "postal_code": "41400",
+      "state": "Sevilla",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 37.541286,
+        "longitude": -5.079308
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "IIIYV1OXLFRHCWLTPKCGXKULPMT",
+          "evse_id": "ES*WEN*EPARKIAECIJA011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAECIJA011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "JYNALQRQTIYSHUNDSNLZJTTZXCF",
+          "evse_id": "ES*WEN*EPARKIAECIJA021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAECIJA021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "G38GBF9U1WNJZUY49QWD",
+      "publish": true,
+      "name": "Parking Francisco Norte. Playa - Parkia",
+      "address": "C. Francisco Nte S/N",
+      "city": "Marbella",
+      "postal_code": "29602",
+      "state": "Málaga",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 36.508568,
+        "longitude": -4.888979
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "AX01RVPUEAO9MLCNT6HH8OQIFSF",
+          "evse_id": "ES*WEN*EPARKIAFCONORTE011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAFCONORTE011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "WFOZJKIYFEJVXRILVNTVFS9HK87",
+          "evse_id": "ES*WEN*EPARKIAFCONORTE021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAFCONORTE021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "0L7ILBD9XAGKLLA3ZDVG",
+      "publish": true,
+      "name": "Parking Av. del Mar - Parkia",
+      "address": "Av. Del Mar S/N",
+      "city": "Marbella",
+      "postal_code": "29602",
+      "state": "Málaga",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 36.508312,
+        "longitude": -4.886285
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "4XCGXSTJLWU7ZPXUVP1RJSUJERZ",
+          "evse_id": "ES*WEN*EPARKIAAVMAR011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAAVMAR011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "YW8QHPNKCFM7ME2ZD77OCDYTKMT",
+          "evse_id": "ES*WEN*EPARKIAAVMAR021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAAVMAR021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "ZUGKA6TWUQQQ1VJQFQ7Y",
+      "publish": true,
+      "name": "Parking Quevedo. Madrid - Parkia",
+      "address": "Calle De Rodríguez San Pedro 8",
+      "city": "Madrid",
+      "postal_code": "28015",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.431686,
+        "longitude": -3.706362
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "DRMQSVADFPBP284UHPZT7PEUR2R",
+          "evse_id": "ES*WEN*EPARKIAQUEVEDO011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAQUEVEDO011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "QDRN6JZJMJCDZB1O6IALQA6MWQA",
+          "evse_id": "ES*WEN*EPARKIAQUEVEDO021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAQUEVEDO021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "DFEKGNT9ENCZUE4QSJJQ",
+      "publish": true,
+      "name": "Parking Plaza República Dominicana - Parkia",
+      "address": "Pl. De La R. Dominicana, S/N",
+      "city": "Madrid",
+      "postal_code": "28016",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.459003,
+        "longitude": -3.676273
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "1JPIFUP2PWPBVMAE2K9F9SFSURU",
+          "evse_id": "ES*WEN*EPARKIAREPDOM011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAREPDOM011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "RO50DIQAAFBBD1CCDIOVV8BZ0GR",
+          "evse_id": "ES*WEN*EPARKIAREPDOM021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAREPDOM021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "NPPLC3SIPRJG6HGLMWRE",
+      "publish": true,
+      "name": "Parking Princesa II. Madrid - Parkia",
+      "address": "C. Princesa 5",
+      "city": "Madrid",
+      "postal_code": "28008",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.425205,
+        "longitude": -3.71279
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "M99REJKHNHSZERDGWEKTOK5ACF4",
+          "evse_id": "ES*WEN*EPARKIAPRINCESA011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAPRINCESA011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "XIZMIK4L75GH5P5SD1DPMTC2FS8",
+          "evse_id": "ES*WEN*EPARKIAPRINCESA021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAPRINCESA021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "8EO9OZ8YRS4RBJ3GUM4T",
+      "publish": true,
+      "name": "Parking Seminario. Zaragoza - Parkia",
+      "address": "Vía Hispanidad, 20",
+      "city": "Zaragoza",
+      "postal_code": "50009",
+      "state": "Zaragoza",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 41.635696,
+        "longitude": -0.91088
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "LZKES4KQAD14CUAAXSA5X0RTNHE",
+          "evse_id": "ES*WEN*EPARKIASEMINARIO011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIASEMINARIO011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "CPQS4MN7HZ9G75KDHBJELTJ78CU",
+          "evse_id": "ES*WEN*EPARKIASEMINARIO021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIASEMINARIO021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "00XVXBQZ3V3WLFILEFUD",
+      "publish": true,
+      "name": "WS Bellavista",
+      "address": "Pi Industrial Pineda, 3",
+      "city": "Sevilla",
+      "postal_code": "41013",
+      "state": "Sevilla",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 37.335243,
+        "longitude": -5.968815
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "EPCIB0OIXBO85XUYJHGEGWPXVK7",
+          "evse_id": "ES*WEN*EWSBELLAVISTA01CD1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA01CD1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA01CD1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "F0PKHZXIXVKRCBMGRXJRWXYLIP8",
+          "evse_id": "ES*WEN*EWSBELLAVISTA02AB1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA02AB1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA02AB1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "WORX9IBWPC4JDTZMUSUK7SJTMVY",
+          "evse_id": "ES*WEN*EWSBELLAVISTA02CD1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA02CD1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA02CD1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "T2CCKXKFCZESXHFJ1FRM4F3GHIS",
+          "evse_id": "ES*WEN*EWSBELLAVISTA03AB1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA03AB1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA03AB1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "B5WMJY03GCREWZHYBLK6PFXLOCG",
+          "evse_id": "ES*WEN*EWSBELLAVISTA01AB1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA01AB1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA01AB1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "PUVPRBU7XFH2BJ1IZM0JRLNTC9D",
+          "evse_id": "ES*WEN*EWSBELLAVISTA03CD1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA03CD1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA03CD1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "WEVTV3AO3FU5EECUNIM3ORORIDF",
+          "evse_id": "ES*WEN*EWSBELLAVISTA04BA1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA04BA1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA04BA1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "LW51WTVPFM4B95GGTFBHQEJK4IV",
+          "evse_id": "ES*WEN*EWSBELLAVISTA04DC1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA04DC1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA04DC1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "LCDFAS32CSTWW9JAUY5ZEVTB6GW",
+          "evse_id": "ES*WEN*EWSBELLAVISTA05BA1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EWSBELLAVISTA05BA1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            },
+            {
+              "id": "ES*WEN*EWSBELLAVISTA05BA1*1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 400,
+              "max_amperage": 900,
+              "max_electric_power": 360000,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "WEN",
+      "id": "JWXBPQIOMO7ASLUIVXBF",
+      "publish": true,
+      "name": "Parking Plaza Castilla. Madrid - Parkia",
+      "address": "Calle De San Benito 4",
+      "city": "Madrid",
+      "postal_code": "28046",
+      "state": "Madrid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 40.46767,
+        "longitude": -3.689523
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "YG51XMI3S3PMM4BNNNUECCFRRH1",
+          "evse_id": "ES*WEN*EPARKIAPZCASTILLA011",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAPZCASTILLA011*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        },
+        {
+          "uid": "BQBWJKGYNAWQNYQWXUDK2WY6RFH",
+          "evse_id": "ES*WEN*EPARKIAPZCASTILLA021",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER",
+            "REMOTE_START_STOP_CAPABLE"
+          ],
+          "connectors": [
+            {
+              "id": "ES*WEN*EPARKIAPZCASTILLA021*0",
+              "standard": "IEC_62196_T2",
+              "format": "CABLE",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 32,
+              "max_electric_power": 7400,
+              "last_updated": "2026-10-14T22:49:58"
+            }
+          ],
+          "last_updated": "2026-10-14T22:49:58"
+        }
+      ],
+      "operator": "Wenea Services Spain, S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-14T22:49:58"
+    },
+    {
+      "country_code": "es",
+      "party_id": "RSL",
+      "id": "6NUU2FAFNIX2362VVJKG",
+      "publish": true,
+      "name": "RIEGOSOLAR PUNTO DE RECARGA 2",
+      "address": "ROBLE N1 NAVE 1",
+      "city": "Cistérniga",
+      "postal_code": "47193",
+      "state": "Valladolid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 41.601273,
+        "longitude": -4.675012
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "XZMBRS17PIQOOSCBD3H1LBV4YMG",
+          "evse_id": "ES*RSL*ECISTGUN2",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "ES*RSL*ECISTGUN2*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 200,
+              "max_electric_power": 60000,
+              "last_updated": "2026-10-16T07:48:11"
+            }
+          ],
+          "last_updated": "2026-10-16T07:48:11"
+        }
+      ],
+      "operator": "SISTEMAS DE RIEGO SOLAR S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-16T07:48:11"
+    },
+    {
+      "country_code": "es",
+      "party_id": "RSL",
+      "id": "BQ5NTQZBKMXT232ZLLAH",
+      "publish": true,
+      "name": "RIEGOSOLAR PUNTO DE RECARGA",
+      "address": "ROBLE N1 NAVE 1",
+      "city": "Cistérniga",
+      "postal_code": "47193",
+      "state": "Valladolid",
+      "country": "ESP",
+      "coordinates": {
+        "latitude": 41.601273,
+        "longitude": -4.675012
+      },
+      "parking_type": "ON_STREET",
+      "evses": [
+        {
+          "uid": "2RFOXKNABZPANTIQJVKEFIQ2PJO",
+          "evse_id": "ES*RSL*ECISTGUN1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "ES*RSL*ECISTGUN1*0",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "max_voltage": 1000,
+              "max_amperage": 200,
+              "max_electric_power": 60000,
+              "last_updated": "2026-10-16T07:49:31"
+            }
+          ],
+          "last_updated": "2026-10-16T07:49:31"
+        }
+      ],
+      "operator": "SISTEMAS DE RIEGO SOLAR S.L.",
+      "opening_times": null,
+      "last_updated": "2026-10-16T07:49:31"
     }
   ],
-  "timestamp": "2026-10-12T06:55:59.969793+00:00"
+  "timestamp": "2026-10-19T05:41:24.865207+00:00"
 }
