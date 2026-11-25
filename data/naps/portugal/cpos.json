@@ -24,7 +24,7 @@
   {
     "id": "ATLA",
     "id_ext": "ATL",
-    "name": "Atlante Infra Portugal, S.A",
+    "name": "Atlante Portugal",
     "country_code": "PT",
     "website": null,
     "vat_id": "513989536",
@@ -173,6 +173,17 @@
     "vat_id": "517820358",
     "telephone": "213933190",
     "display_name": "ConectaMais",
+    "parent_id": null
+  },
+  {
+    "id": "CONT",
+    "id_ext": "CNT",
+    "name": "Modelo Continente Hipermercados, S.A.",
+    "country_code": "PT",
+    "website": null,
+    "vat_id": null,
+    "telephone": "218247247",
+    "display_name": null,
     "parent_id": null
   },
   {
@@ -530,9 +541,9 @@
   {
     "id": "HIGH",
     "id_ext": "HGP",
-    "name": "High Green Power, Unipessoal Lda.",
+    "name": "HighGreenPower",
     "country_code": "PT",
-    "website": "https://www.highgreenpower.pt/",
+    "website": null,
     "vat_id": "514377119",
     "telephone": "304503212",
     "display_name": "High Green Power",
@@ -584,12 +595,12 @@
   },
   {
     "id": "INTV",
-    "id_ext": "ITV",
-    "name": "Instavolt Portugal Lda.",
+    "id_ext": "",
+    "name": "INTV",
     "country_code": "PT",
     "website": null,
     "vat_id": "517045320",
-    "telephone": "932117315",
+    "telephone": null,
     "display_name": "Instavolt",
     "parent_id": null
   },
@@ -683,12 +694,12 @@
   },
   {
     "id": "MAKS",
-    "id_ext": "MAK",
-    "name": "Maksu",
+    "id_ext": "",
+    "name": "MAKS",
     "country_code": "PT",
-    "website": "http://evportugal.maksu.com/pt",
+    "website": null,
     "vat_id": "510711464",
-    "telephone": "213847300",
+    "telephone": null,
     "display_name": "Maksu",
     "parent_id": null
   },
@@ -871,9 +882,9 @@
   {
     "id": "REPS",
     "id_ext": "REP",
-    "name": "REPSOL PORTUGUESA LDA",
+    "name": "REPSOL Portuguesa Lda",
     "country_code": "PT",
-    "website": "https://www.repsol.pt/particulares/",
+    "website": null,
     "vat_id": "500246963",
     "telephone": "213119000",
     "display_name": "Repsol",
@@ -1035,13 +1046,24 @@
   },
   {
     "id": "ZUND",
-    "id_ext": "ZUN",
+    "id_ext": "ZND",
     "name": "Grupo Easycharger, SL",
     "country_code": "PT",
     "website": null,
     "vat_id": "A34277434",
     "telephone": "+34979300500",
     "display_name": "Zunder",
+    "parent_id": null
+  },
+  {
+    "id": "ZUNP",
+    "id_ext": "ZUP",
+    "name": "Grupo Easycharger, SL",
+    "country_code": "PT",
+    "website": null,
+    "vat_id": null,
+    "telephone": "+34979300500",
+    "display_name": null,
     "parent_id": null
   }
 ]
