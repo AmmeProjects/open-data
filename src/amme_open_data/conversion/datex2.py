@@ -30,6 +30,7 @@ class DatexConnectorStandards(str, Enum):
     DOMESTIC_A = "domesticA"
     DOMESTIC_E = "domesticE"
     DOMESTIC_F = "domesticF"  # schuko
+    DOMESTIC_G = "domesticG"
     DOMESTIC_L = "domesticL"
     IEC_62196_T1 = "iec62196T1"
     IEC_62196_T3A = "iec62196T3A"

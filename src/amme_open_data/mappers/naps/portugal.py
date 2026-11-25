@@ -45,7 +45,7 @@ def parse_connector(doc) -> Connector:
 
 
 def parse_evse(doc) -> EVSE:
-    connectors = doc["ns6:connector"]
+    connectors = doc.get("ns6:connector", [])
     if not isinstance(connectors, list):
         connectors = [connectors]
 
@@ -61,23 +61,36 @@ def parse_evse(doc) -> EVSE:
     )
 
 
+def _get_lang_text(node: dict | None, default: str = "") -> str:
+    if not isinstance(node, dict):
+        return default
+    value = node.get("values", {}).get("value", {})
+    if isinstance(value, list):
+        value = value[0] if value else {}
+    if not isinstance(value, dict):
+        return default
+    return value.get("#text") or default
+
+
 def parse_location(doc) -> Location:
-    operator_id = doc["ns4:operator"]["@id"]
+    operator_doc = doc.get("ns4:operator") or {}
+    operator_id = operator_doc.get("@id", "")
     party_id = operator_id
 
-    address = doc["ns4:locationReference"]["ns3:_locationReferenceExtension"][
-        "ns3:facilityLocation"
-    ]["ns2:address"]["ns2:addressLine"]["ns2:text"]["values"]["value"]["#text"]
-    city = doc["ns4:locationReference"]["ns3:_locationReferenceExtension"][
-        "ns3:facilityLocation"
-    ]["ns2:address"]["ns2:city"]["values"]["value"]["#text"]
+    facility_address = (
+        doc.get("ns4:locationReference", {})
+        .get("ns3:_locationReferenceExtension", {})
+        .get("ns3:facilityLocation", {})
+        .get("ns2:address", {})
+    )
+    address_line = facility_address.get("ns2:addressLine", {})
+    if isinstance(address_line, list):
+        address_line = address_line[0] if address_line else {}
+    address = _get_lang_text(address_line.get("ns2:text"))
+    city = _get_lang_text(facility_address.get("ns2:city"))
     state = None  # Not present in example
-    postal_code = doc["ns4:locationReference"]["ns3:_locationReferenceExtension"][
-        "ns3:facilityLocation"
-    ]["ns2:address"]["ns2:postcode"]
-    country_code = doc["ns4:locationReference"]["ns3:_locationReferenceExtension"][
-        "ns3:facilityLocation"
-    ]["ns2:address"]["ns2:countryCode"]
+    postal_code = facility_address.get("ns2:postcode") or ""
+    country_code = facility_address.get("ns2:countryCode", "PT")
 
     coordinates = doc["ns4:locationReference"]["ns3:pointByCoordinates"][
         "ns3:pointCoordinates"
@@ -112,7 +125,7 @@ def parse_location(doc) -> Location:
         ),
         parking_type=None,
         evses=[parse_evse(pt) for pt in evses],
-        operator=doc["ns4:operator"]["ns4:name"]["values"]["value"]["#text"],
+        operator=_get_lang_text(operator_doc.get("ns4:name")),
         opening_times=None,
         last_updated=last_updated,
     )

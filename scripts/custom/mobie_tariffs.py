@@ -1,59 +1,36 @@
+import json
 import logging
 import os
+import shutil
 from datetime import datetime
-from urllib.parse import urljoin
 
-from bs4 import BeautifulSoup
-import requests
+from amme_open_data.utils.download import Download
 
-# URL of the page containing the download link
-PAGE_URL = "https://www.mobie.pt/pt/redemobie/encontrar-posto"
+TARIFFS_URL = "https://data.mobie.pt/data/tariffs.json"
 DIR_OUTPUT = "data/naps/portugal/history_tariffs/"
-DIR_LATEST = "data/naps/portugal/mobie_tariffs_latest.csv"
-os.makedirs(DIR_OUTPUT, exist_ok=True)
+PATH_LATEST = "data/naps/portugal/mobie_tariffs_latest.json"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 
-session = requests.Session()
-session.headers.update(
-    {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/120.0.0.0 Safari/537.36"
-        ),
-        "Accept-Language": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-    }
-)
 
-# Download the HTML page
-response = session.get(PAGE_URL, timeout=20)
-response.raise_for_status()
-html = response.text
+def update_tariffs() -> None:
+    os.makedirs(DIR_OUTPUT, exist_ok=True)
+    date_str = datetime.now().strftime("%Y%m%d")
+    filepath = os.path.join(DIR_OUTPUT, f"mobie_{date_str}.json")
 
-# Use BeautifulSoup to find the download link
-soup = BeautifulSoup(html, "html.parser")
-download_link_tag = soup.find("a", id="linkDownload")
-if not download_link_tag or not download_link_tag.has_attr("href"):
-    raise Exception("Download link not found in HTML.")
-download_url = download_link_tag["href"]
+    Download(url=TARIFFS_URL, path=filepath).download(force=True)
 
-# If the link is relative, build the absolute URL
-if not download_url.startswith("http"):
-    download_url = urljoin(PAGE_URL, download_url)
+    # Validate and pretty-print JSON payload
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    logging.info("Downloaded and formatted JSON to %s", filepath)
 
-# Download the CSV file
-csv_response = session.get(download_url, timeout=30)
-csv_response.raise_for_status()
+    shutil.copyfile(filepath, PATH_LATEST)
+    logging.info("Updated latest tariffs file at %s", PATH_LATEST)
 
-# Save the file with date in the filename
-date_str = datetime.now().strftime("%Y%m%d")
-filename = f"mobie_{date_str}.csv"
-filepath = os.path.join(DIR_OUTPUT, filename)
-with open(filepath, "wb") as f:
-    f.write(csv_response.content)
-logging.info(f"Downloaded CSV to {filepath}")
-# Update the latest tariffs file
-with open(DIR_LATEST, "wb") as f:
-    f.write(csv_response.content)
-logging.info(f"Updated latest tariffs file at {DIR_LATEST}")
+
+if __name__ == "__main__":
+    update_tariffs()

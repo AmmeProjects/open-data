@@ -86,16 +86,18 @@ jobs:
       BRANCH_NAME: ${{ needs.prepare-branch.outputs.branch_name }}
       BRANCH_DATE: ${{ needs.prepare-branch.outputs.branch_date }}
     steps:
-      - name: Checkout target branch
+      - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          ref: ${{ env.BRANCH_NAME }}
-          fetch-depth: 0
       - name: Create or View PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
+          if ! git ls-remote --exit-code --heads origin "$BRANCH_NAME" >/dev/null; then
+            echo "Branch $BRANCH_NAME does not exist on origin; skipping PR creation."
+            echo "This happens when no updates are made."
+            exit 0
+          fi
           existing_pr=$(gh pr list \
             --head "$BRANCH_NAME" \
             --base main \
